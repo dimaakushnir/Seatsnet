@@ -606,6 +606,11 @@ body.lock {
 .custom-date {
   top: 8px;
 }
+@media (max-width: 480.98px) {
+  .custom-date {
+    transform: translate(-25px, 0);
+  }
+}
 .custom-date.select2-dropdown--below {
   border-radius: 8px !important;
   overflow: hidden;
@@ -625,6 +630,10 @@ body.lock {
   color: #031a32;
   position: relative;
   background-color: transparent;
+}
+.custom-date .select2-results__option .custom-option {
+  width: 100%;
+  height: 100%;
 }
 .custom-date .select2-results__option:first-child {
   font-weight: 700;
@@ -2079,16 +2088,73 @@ body.lock {
 }
 @media (max-width: 992.98px) {
   .item-actions-header_select-location .select2-container--default .select2-selection--single {
-    padding: 0 12.5px 0 15px;
+    padding: 0 0px 0 15px;
   }
 }
-@media (max-width: 768.98px) {
+@media (max-width: 480.98px) {
   .item-actions-header_select-location .select2-container--default .select2-selection--single {
-    padding: 0 12.5px 0 12px;
+    padding: 0 0px 0 12px;
+  }
+}
+.item-actions-header_select-date {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.item-actions-header_select-date .item-actions-header__icon {
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  left: 14px;
+}
+@media (max-width: 992.98px) {
+  .item-actions-header_select-date .item-actions-header__icon {
+    position: relative;
+    left: 0;
+  }
+}
+@media (max-width: 480.98px) {
+  .item-actions-header_select-date .item-actions-header__icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+.item-actions-header_select-date .item-actions-header__icon svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+@media (max-width: 480.98px) {
+  .item-actions-header_select-date .item-actions-header__icon svg {
+    fill: #00E1E7;
   }
 }
 .item-actions-header_select-date .select2-container--default .select2-selection--single {
-  padding: 0 0 0 17px;
+  padding: 0 0 0 47px;
+}
+@media (max-width: 992.98px) {
+  .item-actions-header_select-date .select2-container--default .select2-selection--single {
+    padding: 0 0 0 17px;
+  }
+}
+@media (max-width: 480.98px) {
+  .item-actions-header_select-date .select2-container--default .select2-selection--single {
+    padding: 0 0 0 12px;
+  }
+}
+
+.custom-dates {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  top: 10px;
+  transform: translate(20px, 0);
+}
+@media (max-width: 480.98px) {
+  .custom-dates {
+    transform: translate(0, 0);
+  }
 }
 
 .seatsnet-home__fullscreen:not(:last-child) {
