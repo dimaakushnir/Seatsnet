@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Home</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="like" viewBox="0 0 20 19">
+        <g>
+            <path
+                d="M9.22318 16.2905L9.22174 16.2892C6.62708 13.9364 4.55406 12.0515 3.11801 10.2946C1.69296 8.55118 1 7.05624 1 5.5C1 2.96348 2.97109 1 5.5 1C6.9377 1 8.33413 1.67446 9.24116 2.73128L10 3.61543L10.7588 2.73128C11.6659 1.67446 13.0623 1 14.5 1C17.0289 1 19 2.96348 19 5.5C19 7.05624 18.307 8.55118 16.882 10.2946C15.4459 12.0515 13.3729 13.9364 10.7783 16.2892L10.7768 16.2905L10 16.9977L9.22318 16.2905Z"
+                stroke="#EB1FCA" stroke-width="2" />
+        </g>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 10 14">
+        <g>
+            <path
+                d="M0.82762 6.46478L7.09039 0.679223C7.39243 0.40019 7.88213 0.40019 8.18414 0.679223L8.91459 1.35402C9.21612 1.63257 9.2167 2.08403 8.91588 2.36324L3.95253 6.97L8.91588 11.5767C9.2167 11.8559 9.21612 12.3074 8.91459 12.586L8.18414 13.2608C7.88209 13.5398 7.3924 13.5398 7.09038 13.2608L0.827653 7.4752C0.525606 7.1962 0.525606 6.74381 0.82762 6.46478Z"
+                fill="white" />
+        </g>
+    </symbol>
+    <symbol id="search" viewBox="0 0 19 20">
+        <g>
+            <path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd"
+                d="M2 8.97541C2 5.5666 4.76338 2.80322 8.17218 2.80322C11.581 2.80322 14.3444 5.5666 14.3444 8.97541C14.3444 12.3842 11.581 15.1476 8.17218 15.1476C4.76338 15.1476 2 12.3842 2 8.97541ZM8.17218 0.803223C3.65881 0.803223 0 4.46203 0 8.97541C0 13.4888 3.65881 17.1476 8.17218 17.1476C10.0683 17.1476 11.8137 16.5018 13.2002 15.4182L16.686 18.904C17.0765 19.2945 17.7097 19.2945 18.1002 18.904C18.4907 18.5134 18.4907 17.8803 18.1002 17.4897L14.6145 14.004C15.6984 12.6174 16.3444 10.8718 16.3444 8.97541C16.3444 4.46203 12.6856 0.803223 8.17218 0.803223Z" />
+        </g>
+    </symbol>
+    <symbol id="point" viewBox="0 0 13 18">
+        <g>
+            <path
+                d="M6.5 0.25C3.05391 0.25 0.25 2.93164 0.25 6.22656C0.25 7.7957 0.965234 9.88242 2.37578 12.4289C3.50859 14.4734 4.81914 16.3223 5.50078 17.2422C5.61596 17.3994 5.76656 17.5272 5.94037 17.6153C6.11418 17.7034 6.3063 17.7493 6.50117 17.7493C6.69604 17.7493 6.88816 17.7034 7.06197 17.6153C7.23578 17.5272 7.38638 17.3994 7.50156 17.2422C8.18203 16.3223 9.49375 14.4734 10.6266 12.4289C12.0348 9.8832 12.75 7.79648 12.75 6.22656C12.75 2.93164 9.94609 0.25 6.5 0.25ZM6.5 9C6.00555 9 5.5222 8.85338 5.11107 8.57867C4.69995 8.30397 4.37952 7.91352 4.1903 7.45671C4.00108 6.99989 3.95157 6.49723 4.04804 6.01227C4.1445 5.52732 4.3826 5.08186 4.73223 4.73223C5.08186 4.3826 5.52732 4.1445 6.01227 4.04804C6.49723 3.95157 6.99989 4.00108 7.45671 4.1903C7.91352 4.37952 8.30397 4.69995 8.57867 5.11107C8.85338 5.5222 9 6.00555 9 6.5C8.99928 7.16282 8.73565 7.79828 8.26697 8.26697C7.79828 8.73565 7.16282 8.99928 6.5 9Z" />
+        </g>
+    </symbol>
+</svg>
+    <div class="wrapper">
+        <div class="seatsnet-home">
+            <div class="seatsnet__top">
+                <div class="seatsnet-home__dashboard dashboard">
+                    <div class="dashboard__container container">
+                        <div class="dashboard__row">
+                            <div class="dashboard__message">
+                                <p>
+                                    We're a leading secondary ticket marketplace. <span>All sellers have a long track
+                                        record.</span> Prices may differ from face value.
+                                </p>
+                            </div>
+                            <div class="dashboard__actions actions-dashboard">
+                                <ul class="actions-dashboard__list">
+                                    <li
+                                        class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_whatsapp">
+                                        <a href="tel:+441416732832" class="item-actions-dashboard__link">
+                                            <span
+                                                class="item-actions-dashboard__icon item-actions-dashboard__icon_whatsapp">
+                                                <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                                            </span>
+                                            <span class="item-actions-dashboard__number">
+                                                +4 (414) 16-732-832
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_chat">
+                                        <a href="" class="item-actions-dashboard__link">
+                                            <span class="item-actions-dashboard__label">
+                                                Chat
+                                            </span>
+                                            <span
+                                                class="item-actions-dashboard__icon item-actions-dashboard__icon_chat">
+                                                <img src="img/icons/chat.svg" alt="chat">
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
+                                        <select class="select-valute">
+                                            <option value="Euro" data-image="img/icons/euro.svg" selected>
+                                                Euro
+                                            </option>
+                                            <option value="GB Pound" data-image="img/icons/euro.svg">GB Pound</option>
+                                        </select>
+                                    </li>
+                                    <li
+                                        class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
+                                        <select class="select-language">
+                                            <option value="Euro" data-image="img/icons/usa.svg" selected>
+                                                English
+                                            </option>
+                                            <option value="GB Pound" data-image="img/icons/usa.svg">Русский</option>
+                                            <option value="GB Pound" data-image="img/icons/usa.svg">German</option>
+                                            <option value="GB Pound" data-image="img/icons/usa.svg">Italiano</option>
+                                            <option value="GB Pound" data-image="img/icons/usa.svg">Spanish</option>
+                                            <option value="GB Pound" data-image="img/icons/usa.svg">Francais</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header class="header">
+    <div class="header__container container">
+        <div class="header__top top-header">
+            <div class="top-header__column top-header__column_1">
+                <div class="top-header__burger">
+                    <button class="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+                <div class="top-header__logo-block">
+                    <a href="index.html" class="top-header__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="top-header__search" data-da="top-header__column_3, 0, 850">
+                    <span class="top-header__search-icon">
+                        <svg>
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </span>
+                    <input placeholder="Event, Artist or Team" autocomplete='off' type='text' name='form[]'
+                        data-value='' class='top-header__search-input'>
+                </div>
+            </div>
+            <div class="top-header__column top-header__column_2">
+                <div class="top-header__logins logins">
+                    <div class="logins__items">
+                        <div class="logins__item logins__item_buyer">
+                            <div class="logins__dropdown dropdown">
+                                <button class="dropdown__button">
+                                    <span>Buyer Login</span>
+                                </button>
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__list-item item-dropdown">
+                                        <a href="" class="item-dropdown__link item-dropdown__link_login">
+                                            <span class="item-dropdown__label">Login as Buyer</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__list-item item-dropdown">
+                                        <a href="" class="item-dropdown__link item-dropdown__link_registration">
+                                            <span class="item-dropdown__label">Buyer Register</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="logins__item logins__item_seller">
+                            <div class="logins__dropdown dropdown">
+                                <button class="dropdown__button">
+                                    <span>Seller Login</span>
+                                </button>
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__list-item item-dropdown">
+                                        <a href="" class="item-dropdown__link item-dropdown__link_login">
+                                            <span class="item-dropdown__label">Login as seller</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__list-item item-dropdown">
+                                        <a href="" class="item-dropdown__link item-dropdown__link_registration">
+                                            <span class="item-dropdown__label">Register as seller</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-header__column top-header__column_3">
+            </div>
+        </div>
+        <div class="header__bottom bottom-header">
+            <div class="bottom-header__column">
+                <nav class="bottom-header__menu menu-header" data-da="mobile-header__body, 0, 992.98">
+                    <ul class="menu-header__list">
+                        <li class="menu-header__item">
+                            <a href="" class="menu-header__link">
+                                Sports
+                            </a>
+                            <span class="submenu-header">
+                                <ul class="submenu-header__list">
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">MLB</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">NBA</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">NFL</a>
+                                        <span class="subsubmenu-header">
+                                            <ul class="subsubmenu-header__list">
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Arizona Cardinals</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Atlanta Falcons</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Baltimore Ravens</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Buffalo Bills</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Carolina Panthers</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Chicago bears</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Cincinnati Bengals</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Cleveland Browns</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Dallas Cowboys</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Denver Broncos</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Detroit Lions</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Green Bay Packeers</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Houston Texans</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Indianapolis Colts</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Jacksonville Jaguars</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">kansas City Chiefs</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Las Vegas Raiders</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Los Angeles Chargers</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="subsubmenu-header__list">
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Los Angeles Rams</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Miami Dolphins</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Minnesota Vikings</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">New England Patriots</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">New Orleans Saints</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">New York Giants</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">New York Jets</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Philadelphia Eagles</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Pittsburgh Steelers</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">San Francisco 49ers</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Seattle Seahawks</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Tampa Bay Buccaneers</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Tennessee Titans</a>
+                                                </li>
+                                                <li class="subsubmenu-header__item">
+                                                    <a href="" class="subsubmenu-header__link">Washington Commanders</a>
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">Tennis</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">Rugby</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">Golf</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">Cricket</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">College Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">Volleyball</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                    <li class="submenu-header__item">
+                                        <a href="" class="submenu-header__link">All Sports</a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li class="menu-header__item">
+                            <a href="" class="menu-header__link">
+                                Concerts
+                            </a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a href="" class="menu-header__link">
+                                Theatre
+                            </a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a href="" class="menu-header__link">
+                                Festivals
+                            </a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a href="" class="menu-header__link">
+                                Gift Cards
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottom-header__column">
+                <div class="bottom-header__actions actions-header">
+                    <ul class="actions-header__list">
+                        <li
+                            class="actions-header__item item-actions-header item-actions-header_select item-actions-header_select-location">
+                            <span class="item-actions-header__icon">
+                                <svg>
+                                    <use xlink:href="#point"></use>
+                                </svg>
+                            </span>
+                            <select class="select-location">
+                                <option value="All Venues">
+                                    All Venues
+                                </option>
+                                <option value="Use My Location">
+                                    Use My Location
+                                </option>
+                                <option value="Getec Arena (ehem. Bordelandhalle)">
+                                    Getec Arena (ehem. Bordelandhalle)
+                                </option>
+                                <option value="Sala Polivalenta">
+                                    Sala Polivalenta
+                                </option>
+                                <option value="Wunderino Arena">
+                                    Wunderino Arena
+                                </option>
+                                <option value="London">
+                                    London
+                                </option>
+                                <option value="Zurich" selected>
+                                    Zurich
+                                </option>
+                            </select>
+                        </li>
+                        <li
+                            class="actions-header__item item-actions-header item-actions-header_select item-actions-header_select-date">
+                            <select class="select-date">
+                                <option value="All Venues">
+                                    All Days
+                                </option>
+                                <option value="Today">
+                                    Today
+                                </option>
+                                <option value="This Week">
+                                    This Week
+                                </option>
+                                <option value="This Weekend">
+                                    This Weekend
+                                </option>
+                                <option value="This Month">
+                                    This Month
+                                </option>
+                                <option value="Custom Dates">
+                                    Custom Dates
+                                </option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__mobile mobile-header">
+        <div class="mobile-header__top">
+            <a href="" class="mobile-header__back">
+                <span>
+                    <img src="img/icons/back.svg" alt="back">
+                </span>
+                Back
+            </a>
+            <button class="mobile-header__burger">
+                <span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-header__body"></div>
+    </div>
+</header>
+            </div>
+            <main class="seatsnet-home__main">
+                <section class="seatsnet-home__fullscreen fullscreen">
+                    <div class="fullscreen__slider slider-fullscreen">
+                        <div class="slider-fullscreen__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider-fullscreen__item item-slider-fullscreen">
+                                        <div class="item-slider-fullscreen__image-block">
+                                            <div class="item-slider-fullscreen__image ibg">
+                                                <img src="img/home/fullscreen/01.jpg" alt="ANDREA BOCELLI">
+                                            </div>
+                                        </div>
+                                        <div class="item-slider-fullscreen__container container">
+                                            <div class="item-slider-fullscreen__body">
+                                                <div class="item-slider-fullscreen__name">ANDREA BOCELLI</div>
+                                                <div class="item-slider-fullscreen__text">
+                                                    <p>
+                                                        Everyone is talking about Adrea Bocelli
+                                                    </p>
+                                                </div>
+                                                <a href="" class="item-slider-fullscreen__btn view-tickets">
+                                                    VIEW TICKETS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-fullscreen__item item-slider-fullscreen">
+                                        <div class="item-slider-fullscreen__image-block">
+                                            <div class="item-slider-fullscreen__image ibg">
+                                                <img src="img/home/fullscreen/02.jpg" alt="olivia rodrigo">
+                                            </div>
+                                        </div>
+                                        <div class="item-slider-fullscreen__container container">
+                                            <div class="item-slider-fullscreen__body">
+                                                <div class="item-slider-fullscreen__name">olivia rodrigo</div>
+                                                <div class="item-slider-fullscreen__text">
+                                                    <p>
+                                                        Everyone is talking about Olivia Rodrigo
+                                                    </p>
+                                                </div>
+                                                <a href="" class="item-slider-fullscreen__btn view-tickets">
+                                                    VIEW TICKETS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-fullscreen__item item-slider-fullscreen">
+                                        <div class="item-slider-fullscreen__image-block">
+                                            <div class="item-slider-fullscreen__image ibg">
+                                                <img src="img/home/fullscreen/01.jpg" alt="ANDREA BOCELLI">
+                                            </div>
+                                        </div>
+                                        <div class="item-slider-fullscreen__container container">
+                                            <div class="item-slider-fullscreen__body">
+                                                <div class="item-slider-fullscreen__name">ANDREA BOCELLI</div>
+                                                <div class="item-slider-fullscreen__text">
+                                                    <p>
+                                                        Everyone is talking about Adrea Bocelli
+                                                    </p>
+                                                </div>
+                                                <a href="" class="item-slider-fullscreen__btn view-tickets">
+                                                    VIEW TICKETS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-fullscreen__item item-slider-fullscreen">
+                                        <div class="item-slider-fullscreen__image-block">
+                                            <div class="item-slider-fullscreen__image ibg">
+                                                <img src="img/home/fullscreen/02.jpg" alt="olivia rodrigo">
+                                            </div>
+                                        </div>
+                                        <div class="item-slider-fullscreen__container container">
+                                            <div class="item-slider-fullscreen__body">
+                                                <div class="item-slider-fullscreen__name">olivia rodrigo</div>
+                                                <div class="item-slider-fullscreen__text">
+                                                    <p>
+                                                        Everyone is talking about Olivia Rodrigo
+                                                    </p>
+                                                </div>
+                                                <a href="" class="item-slider-fullscreen__btn view-tickets">
+                                                    VIEW TICKETS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-fullscreen__item item-slider-fullscreen">
+                                        <div class="item-slider-fullscreen__image-block">
+                                            <div class="item-slider-fullscreen__image ibg">
+                                                <img src="img/home/fullscreen/01.jpg" alt="ANDREA BOCELLI">
+                                            </div>
+                                        </div>
+                                        <div class="item-slider-fullscreen__container container">
+                                            <div class="item-slider-fullscreen__body">
+                                                <div class="item-slider-fullscreen__name">ANDREA BOCELLI</div>
+                                                <div class="item-slider-fullscreen__text">
+                                                    <p>
+                                                        Everyone is talking about Adrea Bocelli
+                                                    </p>
+                                                </div>
+                                                <a href="" class="item-slider-fullscreen__btn view-tickets">
+                                                    VIEW TICKETS
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-fullscreen__navigation navigation">
+                                <div class="navigation__container container">
+                                    <div class="navigation__row">
+                                        <div class="slider-fullscreen__pagination navigation__pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="seatsnet-home__top-categories top-categories">
+                    <div class="top-categories__container container">
+                        <div class="top-categories__top top">
+                            <div class="top__row">
+                                <div class="top__column">
+                                    <h2 class="top__title">Top Categories</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-categories__slider slider">
+                            <div class="top-categories__swiper slider__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slider__item item-slider">
+                                            <div class="item-slider__image-block">
+                                                <a href="" class="item-slider__image ibg">
+                                                    <img src="img/slider/01.jpg" alt="Liverpool">
+                                                </a>
+                                                <a href="" class="item-slider__like">
+                                                    <svg>
+                                                        <use xlink:href="#like"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="item-slider__content">
+                                                <a href="" class="item-slider__title">Liverpool</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__item item-slider">
+                                            <div class="item-slider__image-block">
+                                                <a href="" class="item-slider__image ibg">
+                                                    <img src="img/slider/02.jpg" alt="Chelsea">
+                                                </a>
+                                                <a href="" class="item-slider__like">
+                                                    <svg>
+                                                        <use xlink:href="#like"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="item-slider__content">
+                                                <a href="" class="item-slider__title">Chelsea</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__item item-slider">
+                                            <div class="item-slider__image-block">
+                                                <a href="" class="item-slider__image ibg">
+                                                    <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                                </a>
+                                                <a href="" class="item-slider__like active">
+                                                    <svg>
+                                                        <use xlink:href="#like"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="item-slider__content">
+                                                <a href="" class="item-slider__title">Taylor Swift </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__item item-slider">
+                                            <div class="item-slider__image-block">
+                                                <a href="" class="item-slider__image ibg">
+                                                    <img src="img/slider/04.jpg" alt="EHF Champions League">
+                                                </a>
+                                                <a href="" class="item-slider__like active">
+                                                    <svg>
+                                                        <use xlink:href="#like"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="item-slider__content">
+                                                <a href="" class="item-slider__title">EHF Champions League</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__navigation navigation">
+                                <div class="navigation__row">
+                                    <button class="top-categories__btn_prev navigation__btn navigation__btn_prev">
+                                        <svg>
+                                            <use xlink:href="#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="top-categories__btn_next navigation__btn navigation__btn_next">
+                                        <svg>
+                                            <use xlink:href="#arrow"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
