@@ -939,6 +939,7 @@ body.lock {
     z-index: 10000000000;
     top: 16px;
     right: 28px;
+    cursor: pointer;
   }
 }
 
