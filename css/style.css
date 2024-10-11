@@ -1263,6 +1263,9 @@ main {
   display: flex;
   align-items: center;
 }
+.filter__column:not(:last-child) {
+  border-right: 1px solid #79747e;
+}
 .filter__btn {
   display: inline-flex;
   align-items: center;
@@ -1284,9 +1287,6 @@ main {
   transition: all 0.3s ease 0s;
   position: relative;
   white-space: nowrap;
-}
-.filter__btn:not(:last-child) {
-  border-right: 1px solid #79747e;
 }
 .filter__btn::before {
   display: none;
