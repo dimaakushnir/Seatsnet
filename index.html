@@ -8,75 +8,73 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <title>Home</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <div class="dashboard">
-                <div class="dashboard__container container">
-                    <div class="dashboard__row">
-                        <div class="dashboard__message">
-                            <p>
-                                We're a leading secondary ticket marketplace. <span>All sellers have a long track
-                                    record.</span> Prices may differ from face value.
-                            </p>
-                        </div>
-                        <div class="dashboard__actions actions-dashboard">
-                            <ul class="actions-dashboard__list">
-                                <li
-                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_whatsapp">
-                                    <a href="tel:+441416732832" class="item-actions-dashboard__link">
-                                        <span
-                                            class="item-actions-dashboard__icon item-actions-dashboard__icon_whatsapp">
-                                            <img src="img/icons/whatsapp.svg" alt="whatsapp">
-                                        </span>
-                                        <span class="item-actions-dashboard__number">
-                                            +4 (414) 16-732-832
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_chat">
-                                    <a href="" class="item-actions-dashboard__link">
-                                        <span class="item-actions-dashboard__label">
-                                            Chat
-                                        </span>
-                                        <span class="item-actions-dashboard__icon item-actions-dashboard__icon_chat">
-                                            <img src="img/icons/chat.svg" alt="chat">
-                                        </span>
-                                    </a>
-                                </li>
-                                <li
-                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
-                                    <select class="select-valute">
-                                        <option value="Euro" data-image="img/languages/euro.png"
-                                            data-second-image="img/icons/euro.svg" selected>
-                                            Euro
-                                        </option>
-                                        <option value="USD" data-image="img/languages/english.png"
-                                            data-second-image="img/icons/euro.svg">USD</option>
-                                        <option value="CAD" data-image="img/languages/canada.png"
-                                            data-second-image="img/icons/euro.svg">CAD</option>
-                                    </select>
-                                </li>
-                                <li
-                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
-                                    <select class="select-language">
-                                        <option value="English" data-image="img/languages/english.png" selected>
-                                            English
-                                        </option>
-                                        <option value="Spanish" data-image="img/languages/spanish.png">Spanish</option>
-                                        <option value="German" data-image="img/languages/german.png">German</option>
-                                        <option value="Italian" data-image="img/languages/italian.png">Italian</option>
-                                    </select>
-                                </li>
-                            </ul>
-                        </div>
+    <div class="top">
+        <div class="dashboard">
+            <div class="dashboard__container container">
+                <div class="dashboard__row">
+                    <div class="dashboard__message">
+                        <p>
+                            We're a leading secondary ticket marketplace. <span>All sellers have a long track
+                                record.</span> Prices may differ from face value.
+                        </p>
+                    </div>
+                    <div class="dashboard__actions actions-dashboard">
+                        <ul class="actions-dashboard__list">
+                            <li class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_whatsapp">
+                                <a href="tel:+441416732832" class="item-actions-dashboard__link">
+                                    <span class="item-actions-dashboard__icon item-actions-dashboard__icon_whatsapp">
+                                        <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                                    </span>
+                                    <span class="item-actions-dashboard__number">
+                                        +4 (414) 16-732-832
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_chat">
+                                <a href="" class="item-actions-dashboard__link">
+                                    <span class="item-actions-dashboard__label">
+                                        Chat
+                                    </span>
+                                    <span class="item-actions-dashboard__icon item-actions-dashboard__icon_chat">
+                                        <img src="img/icons/chat.svg" alt="chat">
+                                    </span>
+                                </a>
+                            </li>
+                            <li
+                                class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
+                                <select class="select-valute">
+                                    <option value="Euro" data-image="img/languages/euro.png"
+                                        data-second-image="img/icons/euro.svg" selected>
+                                        Euro
+                                    </option>
+                                    <option value="USD" data-image="img/languages/english.png"
+                                        data-second-image="img/icons/euro.svg">USD</option>
+                                    <option value="CAD" data-image="img/languages/canada.png"
+                                        data-second-image="img/icons/euro.svg">CAD</option>
+                                </select>
+                            </li>
+                            <li
+                                class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
+                                <select class="select-language">
+                                    <option value="English" data-image="img/languages/english.png" selected>
+                                        English
+                                    </option>
+                                    <option value="Spanish" data-image="img/languages/spanish.png">Spanish</option>
+                                    <option value="German" data-image="img/languages/german.png">German</option>
+                                    <option value="Italian" data-image="img/languages/italian.png">Italian</option>
+                                </select>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <header class="header">
+        </div>
+        <header class="header">
     <div class="header__body">
         <div class="header__container container">
             <div class="header__top top-header">
@@ -210,7 +208,8 @@
                                                 </a>
                                             </li>
                                             <li class="dropdown__list-item item-dropdown">
-                                                <a href="" class="item-dropdown__link item-dropdown__link_registration">
+                                                <a href=""
+                                                    class="item-dropdown__link item-dropdown__link_registration seller-register-btn">
                                                     <span class="item-dropdown__label">Register as Seller</span>
                                                     <span class="item-dropdown__label_mob">Register</span>
                                                 </a>
@@ -758,27 +757,27 @@
                                 </div>
                             </div>
                             <h2 class="header-popup__title">Welcome Back!<br> Glad to see you, Again!</h2>
-                            <form action="#" class="header-popup__form form-header-popup">
-                                <div class="form-header-popup__top-text">Login As</div>
-                                <div class="form-header-popup__btns">
-                                    <a href="" class="form-header-popup__btn active">BUYER <span>SIGN IN</span></a>
-                                    <a href="" class="form-header-popup__btn buyer-register-btn">BUYER
+                            <form action="#" class="header-popup__form form">
+                                <div class="form__top-text">Login As</div>
+                                <div class="form__btns">
+                                    <a href="" class="form__btn active">BUYER <span>SIGN IN</span></a>
+                                    <a href="" class="form__btn buyer-register-btn">BUYER
                                         <span>REGISTER</span></a>
                                 </div>
-                                <div class="form-header-popup__btns_mob">
-                                    <a href="" class="form-header-popup__btn active">BUYER</a>
-                                    <a href="" class="form-header-popup__btn seller-login-btn">SELLER</a>
+                                <div class="form__btns_mob">
+                                    <a href="" class="form__btn active">BUYER</a>
+                                    <a href="" class="form__btn seller-login-btn">SELLER</a>
                                 </div>
-                                <div class="form-header-popup__items">
-                                    <div class="form-header-popup__item">
+                                <div class="form__items">
+                                    <div class="form__item">
                                         <input placeholder="E-Mail address" autocomplete='off' type='emeil'
-                                            name='form[]' class='form-header-popup__input'>
+                                            name='form[]' class='form__input'>
                                     </div>
-                                    <div class="form-header-popup__item form-header-popup__passwords">
-                                        <div class="form-header-popup__password">
+                                    <div class="form__item form__passwords">
+                                        <div class="form__password">
                                             <input placeholder="Enter your password" autocomplete='off' type='password'
-                                                name='form[]' class='form-header-popup__input'>
-                                            <span class="form-header-popup__password-show">
+                                                name='form[]' class='form__input'>
+                                            <span class="form__password-show">
                                                 <svg>
                                                     <use xlink:href="#password"></use>
                                                 </svg>
@@ -786,40 +785,38 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__bottom">
-                                    <div class="form-header-popup__bottom-item">
-                                        <div class="form-header-popup__checkbox checkbox-form-header-popup">
+                                <div class="form__bottom">
+                                    <div class="form__bottom-item">
+                                        <div class="form__checkbox checkbox-form">
                                             <input id="formAgreement1" checked type='checkbox' name='form[]'
-                                                class='checkbox-form-header-popup__input'>
-                                            <label for="formAgreement1"
-                                                class="checkbox-form-header-popup__label">Remember me</label>
+                                                class='checkbox-form__input'>
+                                            <label for="formAgreement1" class="checkbox-form__label">Remember me</label>
                                         </div>
                                     </div>
-                                    <div class="form-header-popup__bottom-item">
-                                        <a href="" class="form-header-popup__forgot">
+                                    <div class="form__bottom-item">
+                                        <a href="" class="form__forgot">
                                             Forgot password?
                                         </a>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__captcha">
+                                <div class="form__captcha">
                                     <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                                 </div>
-                                <button type='submit' class='form-header-popup__btn-submit'>SIGN IN</button>
-                                <div class="form-header-popup__or or-form-header-popup">
-                                    <div class="or-form-header-popup__top">Or Login with</div>
-                                    <div class="or-form-header-popup__bottom">
-                                        <a href="" class="or-form-header-popup__btn">
+                                <button type='submit' class='form__btn-submit'>SIGN IN</button>
+                                <div class="form__or or-form">
+                                    <div class="or-form__top">Or Login with</div>
+                                    <div class="or-form__bottom">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/google.svg" alt="google">
                                         </a>
-                                        <a href="" class="or-form-header-popup__btn">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/facebook.svg" alt="facebook">
                                         </a>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__register-bottom register-bottom-form-header-popup">
-                                    <span class="register-bottom-form-header-popup__text">Don’t have an Account?</span>
-                                    <a href=""
-                                        class="register-bottom-form-header-popup__btn buyer-register-btn">Register
+                                <div class="form__register-bottom register-bottom-form">
+                                    <span class="register-bottom-form__text">Don’t have an Account?</span>
+                                    <a href="" class="register-bottom-form__btn buyer-register-btn">Register
                                         Now</a>
                                 </div>
                             </form>
@@ -882,26 +879,26 @@
                                 </div>
                             </div>
                             <h2 class="header-popup__title">Welcome Back!<br> Glad to see you, Again!</h2>
-                            <form action="#" class="header-popup__form form-header-popup">
-                                <div class="form-header-popup__top-text">Login As</div>
-                                <div class="form-header-popup__btns">
-                                    <a href="" class="form-header-popup__btn active">SELLER <span>SIGN IN</span></a>
-                                    <a href="" class="form-header-popup__btn">SELLER <span>REGISTER</span></a>
+                            <form action="#" class="header-popup__form form">
+                                <div class="form__top-text">Login As</div>
+                                <div class="form__btns">
+                                    <a href="" class="form__btn active">SELLER <span>SIGN IN</span></a>
+                                    <a href="" class="form__btn seller-register-btn">SELLER <span>REGISTER</span></a>
                                 </div>
-                                <div class="form-header-popup__btns_mob">
-                                    <a href="" class="form-header-popup__btn buyer-login-btn">BUYER</a>
-                                    <a href="" class="form-header-popup__btn active">SELLER</a>
+                                <div class="form__btns_mob">
+                                    <a href="" class="form__btn buyer-login-btn">BUYER</a>
+                                    <a href="" class="form__btn active">SELLER</a>
                                 </div>
-                                <div class="form-header-popup__items">
-                                    <div class="form-header-popup__item">
+                                <div class="form__items">
+                                    <div class="form__item">
                                         <input placeholder="E-Mail address" autocomplete='off' type='emeil'
-                                            name='form[]' class='form-header-popup__input'>
+                                            name='form[]' class='form__input'>
                                     </div>
-                                    <div class="form-header-popup__item form-header-popup__passwords">
-                                        <div class="form-header-popup__password">
+                                    <div class="form__item form__passwords">
+                                        <div class="form__password">
                                             <input placeholder="Enter your password" autocomplete='off' type='password'
-                                                name='form[]' class='form-header-popup__input'>
-                                            <span class="form-header-popup__password-show">
+                                                name='form[]' class='form__input'>
+                                            <span class="form__password-show">
                                                 <svg>
                                                     <use xlink:href="#password"></use>
                                                 </svg>
@@ -909,39 +906,38 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__bottom">
-                                    <div class="form-header-popup__bottom-item">
-                                        <div class="form-header-popup__checkbox checkbox-form-header-popup">
+                                <div class="form__bottom">
+                                    <div class="form__bottom-item">
+                                        <div class="form__checkbox checkbox-form">
                                             <input id="formAgreement2" checked type='checkbox' name='form[]'
-                                                class='checkbox-form-header-popup__input'>
-                                            <label for="formAgreement2"
-                                                class="checkbox-form-header-popup__label">Remember me</label>
+                                                class='checkbox-form__input'>
+                                            <label for="formAgreement2" class="checkbox-form__label">Remember me</label>
                                         </div>
                                     </div>
-                                    <div class="form-header-popup__bottom-item">
-                                        <a href="" class="form-header-popup__forgot">
+                                    <div class="form__bottom-item">
+                                        <a href="" class="form__forgot">
                                             Forgot password?
                                         </a>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__captcha">
+                                <div class="form__captcha">
                                     <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                                 </div>
-                                <button type='submit' class='form-header-popup__btn-submit'>SIGN IN</button>
-                                <div class="form-header-popup__or or-form-header-popup">
-                                    <div class="or-form-header-popup__top">Or Login with</div>
-                                    <div class="or-form-header-popup__bottom">
-                                        <a href="" class="or-form-header-popup__btn">
+                                <button type='submit' class='form__btn-submit'>SIGN IN</button>
+                                <div class="form__or or-form">
+                                    <div class="or-form__top">Or Login with</div>
+                                    <div class="or-form__bottom">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/google.svg" alt="google">
                                         </a>
-                                        <a href="" class="or-form-header-popup__btn">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/facebook.svg" alt="facebook">
                                         </a>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__register-bottom register-bottom-form-header-popup">
-                                    <span class="register-bottom-form-header-popup__text">Don’t have an Account?</span>
-                                    <a href="" class="register-bottom-form-header-popup__btn">Register Now</a>
+                                <div class="form__register-bottom register-bottom-form">
+                                    <span class="register-bottom-form__text">Don’t have an Account?</span>
+                                    <a href="" class="register-bottom-form__btn">Register Now</a>
                                 </div>
                             </form>
                         </div>
@@ -1029,36 +1025,36 @@
                                 </div>
                             </div>
                             <h2 class="header-popup__title">Hello! Register for a new account</h2>
-                            <form action="#" class="header-popup__form form-header-popup">
-                                <div class="form-header-popup__top-text">Register As</div>
-                                <div class="form-header-popup__btns">
-                                    <a href="" class="form-header-popup__btn active">BUYER <span>REGISTER</span></a>
-                                    <a href="" class="form-header-popup__btn buyer-login-btn">BUYER <span>SIGN
+                            <form action="#" class="header-popup__form form">
+                                <div class="form__top-text">Register As</div>
+                                <div class="form__btns">
+                                    <a href="" class="form__btn active">BUYER <span>REGISTER</span></a>
+                                    <a href="" class="form__btn buyer-login-btn">BUYER <span>SIGN
                                             IN</span></a>
                                 </div>
-                                <div class="form-header-popup__btns_mob">
-                                    <a href="" class="form-header-popup__btn active">BUYER</a>
-                                    <a href="" class="form-header-popup__btn">SELLER</a>
+                                <div class="form__btns_mob">
+                                    <a href="" class="form__btn active">BUYER</a>
+                                    <a href="" class="form__btn seller-register-btn">SELLER</a>
                                 </div>
-                                <div class="form-header-popup__items">
-                                    <div class="form-header-popup__item">
+                                <div class="form__items">
+                                    <div class="form__item">
                                         <input placeholder="E-Mail address" autocomplete='off' type='emeil'
-                                            name='form[]' class='form-header-popup__input'>
+                                            name='form[]' class='form__input'>
                                     </div>
-                                    <div class="form-header-popup__item form-header-popup__passwords">
-                                        <div class="form-header-popup__password">
+                                    <div class="form__item form__passwords">
+                                        <div class="form__password">
                                             <input placeholder="Password" autocomplete='off' type='password'
-                                                name='form[]' class='form-header-popup__input'>
-                                            <span class="form-header-popup__password-show">
+                                                name='form[]' class='form__input'>
+                                            <span class="form__password-show">
                                                 <svg>
                                                     <use xlink:href="#password"></use>
                                                 </svg>
                                             </span>
                                         </div>
-                                        <div class="form-header-popup__password">
+                                        <div class="form__password">
                                             <input placeholder="Confirm Password" autocomplete='off' type='password'
-                                                name='form[]' class='form-header-popup__input'>
-                                            <span class="form-header-popup__password-show">
+                                                name='form[]' class='form__input'>
+                                            <span class="form__password-show">
                                                 <svg>
                                                     <use xlink:href="#password"></use>
                                                 </svg>
@@ -1066,17 +1062,17 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-header-popup__captcha">
+                                <div class="form__captcha">
                                     <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                                 </div>
-                                <button type='submit' class='form-header-popup__btn-submit'>REGISTER</button>
-                                <div class="form-header-popup__or or-form-header-popup">
-                                    <div class="or-form-header-popup__top">Or Register with</div>
-                                    <div class="or-form-header-popup__bottom">
-                                        <a href="" class="or-form-header-popup__btn">
+                                <button type='submit' class='form__btn-submit'>REGISTER</button>
+                                <div class="form__or or-form">
+                                    <div class="or-form__top">Or Register with</div>
+                                    <div class="or-form__bottom">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/google.svg" alt="google">
                                         </a>
-                                        <a href="" class="or-form-header-popup__btn">
+                                        <a href="" class="or-form__btn">
                                             <img src="img/icons/facebook.svg" alt="facebook">
                                         </a>
                                     </div>
@@ -1113,112 +1109,1864 @@
                 </div>
             </div>
         </div>
-    </div>
-</header>
-        </div>
-        <main>
-            <section class="top-categories">
-                <div class="top-categories__container container">
-                    <div class="top-categories__top-block top-block">
-                        <div class="top-block__row">
-                            <div class="top-block__column">
-                                <h2 class="top-block__title">Top Categories</h2>
+        <div class="header-popup header-popup__seller-register">
+            <div class="header-popup__container container">
+                <div class="header-popup__body">
+                    <div class="header-popup__breadcrumbs breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="index.html" class="breadcrumbs__link">Home</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <span class="breadcrumbs__page">Seller Register</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-popup__top top-header-popup">
+                        <div class="top-header-popup__row">
+                            <div class="top-header-popup__logo">
+                                <img src="img/logo.svg" alt="logo">
+                            </div>
+                            <a href="" class="top-header-popup__close">
+                                <svg>
+                                    <use xlink:href="#close"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="header-popup__title">Register & apply for a seller account</h2>
+                    <div class="header-popup__advantages advantages-header-popup">
+                        <div class="advantages-header-popup__row">
+                            <div class="advantages-header-popup__column">
+                                <div class="advantages-header-popup__item item-advantages-header-popup">
+                                    <div class="item-advantages-header-popup__title">Verify Sellers Marketplace
+                                    </div>
+                                    <div class="item-advantages-header-popup__text">
+                                        <p>
+                                            Get the advantage in a real marketplace. Sell safety with high
+                                            volume
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-header-popup__column">
+                                <div class="advantages-header-popup__item item-advantages-header-popup">
+                                    <div class="item-advantages-header-popup__title">Top Technology
+                                    </div>
+                                    <div class="item-advantages-header-popup__text">
+                                        <p>
+                                            Sell your ticket quick through any device
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-header-popup__column">
+                                <div class="advantages-header-popup__item item-advantages-header-popup">
+                                    <div class="item-advantages-header-popup__title">Best Selling Platforms
+                                    </div>
+                                    <div class="item-advantages-header-popup__text">
+                                        <p>
+                                            Make a maximum profit with <span>SeatsNet</span> selling platforms
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-header-popup__column">
+                                <div class="advantages-header-popup__item item-advantages-header-popup">
+                                    <div class="item-advantages-header-popup__title">Get Pay
+                                    </div>
+                                    <div class="item-advantages-header-popup__text">
+                                        <p>
+                                            Get payments safe & secure directly from <a href="">Seatsnet.com</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="top-categories__slider slider">
-                        <div class="top-categories__swiper slider__swiper swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="slider__item item-slider">
-                                        <div class="item-slider__image-block">
-                                            <a href="" class="item-slider__image ibg">
-                                                <img src="img/slider/01.jpg" alt="Liverpool">
-                                            </a>
-                                            <a href="" class="item-slider__like">
-                                                <svg>
-                                                    <use xlink:href="#like"></use>
-                                                </svg>
-                                            </a>
+                    <div class="header-popup__message">
+                        <p>
+                            Pay attention if you are already <a href="">SeatsNet</a> buyer wishing to resell your
+                            tickets you bought on
+                            <a href="">SeatsNet.com</a>, don’t open here seller account. Go to your buyer menu “<a
+                                href="" class="underline">My Order</a>”, than into
+                            the order and click on “<a href="" class="underline">Resell your tickets</a>” yellow button.
+                        </p>
+                    </div>
+                    <form action="#" class="header-popup__main-form main-form">
+                        <div class="main-form__block main-form__block_billing">
+                            <div class="main-form__top">
+                                <h3 class="main-form__title">Billing Address</h3>
+                            </div>
+                            <div class="main-form__items">
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Full Name
+                                            <span class="label-item-main-form__icon">*</span>
                                         </div>
-                                        <div class="item-slider__content">
-                                            <a href="" class="item-slider__title">Liverpool</a>
-                                        </div>
+                                        <input placeholder="Full Name" autocomplete='off' type='text' name='form[]'
+                                            class='item-main-form__input req'>
+                                        <span class="item-main-form__message">
+                                            <span class="item-main-form__message-icon">
+                                                <img src="img/icons/error.svg" alt="error">
+                                            </span>
+                                            Enter full name
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="slider__item item-slider">
-                                        <div class="item-slider__image-block">
-                                            <a href="" class="item-slider__image ibg">
-                                                <img src="img/slider/02.jpg" alt="Chelsea">
-                                            </a>
-                                            <a href="" class="item-slider__like">
-                                                <svg>
-                                                    <use xlink:href="#like"></use>
-                                                </svg>
-                                            </a>
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Email Address
+                                            <span class="label-item-main-form__icon">*</span>
                                         </div>
-                                        <div class="item-slider__content">
-                                            <a href="" class="item-slider__title">Chelsea</a>
-                                        </div>
+                                        <input placeholder="Email" autocomplete='off' type='email' name='form[]'
+                                            class='item-main-form__input req'>
+                                        <span class="item-main-form__message">
+                                            <span class="item-main-form__message-icon">
+                                                <img src="img/icons/error.svg" alt="error">
+                                            </span>
+                                            Enter valid email address
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="slider__item item-slider">
-                                        <div class="item-slider__image-block">
-                                            <a href="" class="item-slider__image ibg">
-                                                <img src="img/slider/03.jpg" alt="Taylor Swift ">
-                                            </a>
-                                            <a href="" class="item-slider__like active">
-                                                <svg>
-                                                    <use xlink:href="#like"></use>
-                                                </svg>
-                                            </a>
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form item-main-form_phone">
+                                        <div class="item-main-form__label label-item-main-form form-item_phone">
+                                            Phone / Mobile Number
+                                            <span class="label-item-main-form__icon">*</span>
                                         </div>
-                                        <div class="item-slider__content">
-                                            <a href="" class="item-slider__title">Taylor Swift </a>
-                                        </div>
+                                        <input placeholder="" autocomplete='off' type='tel' name='form[]'
+                                            class='item-main-form__input phone req'>
+                                        <span class="item-main-form__message">
+                                            <span class="item-main-form__message-icon">
+                                                <img src="img/icons/error.svg" alt="error">
+                                            </span>
+                                            Enter valid phone number
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="slider__item item-slider">
-                                        <div class="item-slider__image-block">
-                                            <a href="" class="item-slider__image ibg">
-                                                <img src="img/slider/04.jpg" alt="EHF Champions League">
-                                            </a>
-                                            <a href="" class="item-slider__like active">
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Company
+                                        </div>
+                                        <input placeholder="Company Name" autocomplete='off' type='text' name='form[]'
+                                            class='item-main-form__input'>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            URL
+                                        </div>
+                                        <input placeholder="www.sample.com" autocomplete='off' type='url' name='form[]'
+                                            class='item-main-form__input'>
+                                    </div>
+                                </div>
+                                <div
+                                    class="main-form__items-column main-form__items-column_big main-form__items-column_empty">
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Address
+                                        </div>
+                                        <input placeholder="Full Name" autocomplete='off' type='text' name='form[]'
+                                            class='item-main-form__input'>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Zip/Postal Code
+                                        </div>
+                                        <input placeholder="Zip/Postal " autocomplete='off' type='text' name='form[]'
+                                            class='item-main-form__input'>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_small">
+                                    <div class="main-form__item item-main-form item-main-form_select">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Country
+                                        </div>
+                                        <select class="select-country" data-placeholder="Country">
+                                            <!-- empty first option for placeholder -->
+                                            <option></option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form item-main-form_select">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            State
+                                        </div>
+                                        <select class="select-state" data-placeholder="State">
+                                            <!-- empty first option for placeholder -->
+                                            <option></option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                            <option value="Value 1">
+                                                Value 1
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            City
+                                        </div>
+                                        <input placeholder="City" autocomplete='off' type='text' name='form[]'
+                                            class='item-main-form__input'>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Password
+                                            <span class="label-item-main-form__icon">*</span>
+                                        </div>
+                                        <div class="item-main-form__password">
+                                            <input placeholder="Enter Password" autocomplete='off' type='password'
+                                                name='form[]' class='item-main-form__input form__input req'>
+                                            <span class="form__password-show">
                                                 <svg>
-                                                    <use xlink:href="#like"></use>
+                                                    <use xlink:href="#password"></use>
                                                 </svg>
-                                            </a>
+                                            </span>
                                         </div>
-                                        <div class="item-slider__content">
-                                            <a href="" class="item-slider__title">EHF Champions League</a>
+                                        <span class="item-main-form__message">
+                                            <span class="item-main-form__message-icon">
+                                                <img src="img/icons/error.svg" alt="error">
+                                            </span>
+                                            Enter password
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="main-form__items-column main-form__items-column_big">
+                                    <div class="main-form__item item-main-form">
+                                        <div class="item-main-form__label label-item-main-form">
+                                            Confirm Password
+                                            <span class="label-item-main-form__icon">*</span>
                                         </div>
+                                        <div class="item-main-form__password">
+                                            <input placeholder="Confirm Password" autocomplete='off' type='password'
+                                                name='form[]' class='item-main-form__input form__input req'>
+                                            <span class="form__password-show">
+                                                <svg>
+                                                    <use xlink:href="#password"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <span class="item-main-form__message">
+                                            <span class="item-main-form__message-icon">
+                                                <img src="img/icons/error.svg" alt="error">
+                                            </span>
+                                            Enter password
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="slider__navigation navigation">
-                            <div class="navigation__row">
-                                <button class="top-categories__btn_prev navigation__btn navigation__btn_prev">
-                                    <svg>
-                                        <use xlink:href="#arrow"></use>
-                                    </svg>
-                                </button>
-                                <button class="top-categories__btn_next navigation__btn navigation__btn_next">
-                                    <svg>
-                                        <use xlink:href="#arrow"></use>
-                                    </svg>
-                                </button>
+                        <div class="main-form__block main-form__block_payment">
+                            <div class="main-form__top">
+                                <h3 class="main-form__title">Set Payment Cycle</h3>
+                            </div>
+                            <div class="main-form__radio radio-main-form">
+                                <div class="radio-main-form__item">
+                                    <input id="mainFormPayment4week" checked autocomplete='off' type='radio'
+                                        value="4 week" name='payment' class='radio-main-form__input'>
+                                    <label for="mainFormPayment4week" class="radio-main-form__label">
+                                        <p>
+                                            <span>Once in 4 weeks - Default</span> (Transfer fee: 0 euro)
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="radio-main-form__item">
+                                    <input id="mainFormPayment2week" autocomplete='off' type='radio' value="2 week"
+                                        name='payment' class='radio-main-form__input'>
+                                    <label for="mainFormPayment2week" class="radio-main-form__label">
+                                        <p>
+                                            <span>Once in 2 weeks</span> (Transfers fee for 2 weeks: 30 euro)
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="radio-main-form__item">
+                                    <input id="mainFormPayment1week" autocomplete='off' type='radio' value="1 week"
+                                        name='payment' class='radio-main-form__input'>
+                                    <label for="mainFormPayment1week" class="radio-main-form__label">
+                                        <p>
+                                            <span>Once in a week</span> (Transfers fee for 1 week: 30 euro)
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="main-form__bottom">
+                                <div class="main-form__message">
+                                    <p>
+                                        If you decide to change your current payment cycle, the new payment cycle chosen
+                                        will take effect from the end of the previous payment cycle selected (and not
+                                        before)
+                                    </p>
+                                </div>
+                                <div class="main-form__message main-form__message_warning">
+                                    <p>
+                                        <span class="main-form__message-icon">*</span>Please note, any balance below 600
+                                        will incur a 30 charge to cover bank charges. This applies to all payment
+                                        cycles.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-form__block main-form__block_textarea">
+                            <div class="main-form__textatea-item">
+                                <div class="main-form__textatea-title">
+                                    Please write about your selling history (your experience and track record) to help
+                                    us verify your account quickly.
+                                </div>
+                                <textarea placeholder="You can leave us comments here" name="form[]"
+                                    class="main-form__textarea"></textarea>
+                            </div>
+                            <div class="form__captcha">
+                                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                            </div>
+                        </div>
+                        <button type='submit' class='main-form__submit'>
+                            <span class="main-form__submit-icon">
+                                <img src="img/icons/submit-icon.svg" alt="submit-icon">
+                            </span>
+                            APPLY NOW
+                        </button>
+                    </form>
+                    <div class="header-popup__faq faq">
+                        <h2 class="faq__title">Selling FAQ</h2>
+                        <div class="faq__items">
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        How can I resell the tickets I bought already in SeatsNet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        Who can sell tickets on SeatsNet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        What is the process to become a verify seller on Seatsnet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        How do I sell tickets on Seatsnet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        What kind of selling format I can use to sell my tickets on Seatsnet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item item-faq">
+                                <div class="item-faq__top top-item-faq">
+                                    <div class="top-item-faq__title">
+                                        Can I sell all kind of tickets on SeatsNet?
+                                    </div>
+                                    <div class="top-item-faq__icon icon-top-item-faq">
+                                        <span class="icon-top-item-faq__plus">
+                                            <img src="img/icons/plus.svg" alt="plus">
+                                        </span>
+                                        <span class="icon-top-item-faq__minus">
+                                            <img src="img/icons/minus.svg" alt="minus">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item-faq__body">
+                                    <div class="item-faq__content">
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                            has roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old. Richard McClintock, a Latin professor at
+                                            Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                            the cites of the word in classical literature, discovered the
+                                            undoubtable source.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        
-        <svg display="none">
+            </div>
+        </div>
+    </div>
+</header>
+    </div>
+    <main>
+        <section class="top-categories">
+            <div class="top-categories__container container">
+                <div class="top-categories__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Top Categories</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-categories__slider slider">
+                    <div class="top-categories__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/01.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/02.jpg" alt="Chelsea">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Chelsea</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/04.jpg" alt="EHF Champions League">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">EHF Champions League</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="top-categories__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="top-categories__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trending-events">
+            <div class="trending-events__container container">
+                <div class="trending-events__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Trending Events in <a href="">London</a></h2>
+                        </div>
+                        <div class="top-block__column">
+                            <a href="" class="top-block__btn-all">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-events__slider slider">
+                    <div class="trending-events__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/05.jpg" alt="EHF Champions League">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">EHF Champions League</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/06.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/05.jpg" alt="EHF Champions League">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">EHF Champions League</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/07.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/05.jpg" alt="EHF Champions League">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">EHF Champions League</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/06.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                        <div class="item-slider__date">Sun, Jan 24 - 7:00 PM</div>
+                                        <div class="item-slider__stadium">Wembley Stadium</div>
+                                        <div class="item-slider__price">From 99€</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="trending-events__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="trending-events__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-events">
+            <div class="top-events__container container">
+                <div class="top-events__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Top Events in London</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-events__slider slider">
+                    <div class="top-events__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/01.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/08.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="top-events__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="top-events__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last-minute-deals">
+            <div class="last-minute-deals__container container">
+                <div class="last-minute-deals__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Last Minute Deals in <a href="">London</a></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-minute-deals__slider slider">
+                    <div class="last-minute-deals__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/01.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/08.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/01.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/08.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="last-minute-deals__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="last-minute-deals__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="events-near-you">
+            <div class="events-near-you__container container">
+                <div class="events-near-you__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Explore Events Near You</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="events-near-you__filter-block filter-block">
+                    <div class="filter-block__row">
+                        <div class="filter-block__column">
+                            <div class="filter-block__filter filter">
+                                <div class="filter__row">
+                                    <a href="" class="filter__btn active">
+                                        SPORTS
+                                    </a>
+                                    <a href="" class="filter__btn">
+                                        CONCERTS
+                                    </a>
+                                    <a href="" class="filter__btn">
+                                        COMEDY
+                                    </a>
+                                    <a href="" class="filter__btn">
+                                        THEATRE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-block__column">
+                            <a href="" class="top-block__btn-all">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="events-near-you__slider slider slider_small">
+                    <div class="events-near-you__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/09.jpg" alt="EHF Champions League ">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">EHF Champions League </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/01.jpg" alt="Liverpool">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Liverpool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/08.jpg" alt="Wembley">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Wembley</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="events-near-you__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="events-near-you__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recently-viewed">
+            <div class="recently-viewed__container container">
+                <div class="recently-viewed__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Recently Viewed</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="recently-viewed__slider slider slider_small">
+                    <div class="recently-viewed__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/05.jpg" alt="EHF Champions League ">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">EHF Champions League </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/10.jpg" alt="Baltimore Ravens">
+                                        </a>
+                                        <a href="" class="item-slider__like">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Baltimore Ravens</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/03.jpg" alt="Taylor Swift ">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">Taylor Swift </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/04.jpg" alt="EHF Champions League">
+                                        </a>
+                                        <a href="" class="item-slider__like active">
+                                            <svg>
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content">
+                                        <a href="" class="item-slider__title">EHF Champions League</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="recently-viewed__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="recently-viewed__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teams-slider">
+            <div class="teams-slider__container container">
+                <div class="teams-slider__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="teams-slider__filter-block filter-block">
+                    <div class="filter-block__row">
+                        <div class="filter-block__column">
+                            <div class="filter-block__filter filter">
+                                <div class="filter__row">
+                                    <a href="" class="filter__btn active">
+                                        TOP TEAMS
+                                    </a>
+                                    <a href="" class="filter__btn">
+                                        CUPS
+                                    </a>
+                                    <a href="" class="filter__btn">
+                                        LEAGUES
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-block__column">
+                            <a href="" class="top-block__btn-all">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teams-slider__slider slider slider_medium">
+                    <div class="teams-slider__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/01.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/02.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/03.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/04.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/05.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/06.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/01.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/02.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/teams/03.svg" alt="FC Barcelona Tickets">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_center">
+                                        <a href="" class="item-slider__title">FC Barcelona Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="teams-slider__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="teams-slider__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cities">
+            <div class="cities__container container">
+                <div class="cities__top">
+                    <h2 class="cities__title">Top Destination for Events</h2>
+                </div>
+                <div class="cities__row">
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/01.jpg" alt="MUNICH">
+                            </a>
+                            <a href="" class="item-cities__title">MUNICH</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/02.jpg" alt="LONDON">
+                            </a>
+                            <a href="" class="item-cities__title">LONDON</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/03.jpg" alt="TOKYO">
+                            </a>
+                            <a href="" class="item-cities__title">TOKYO</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/04.jpg" alt="TURIN">
+                            </a>
+                            <a href="" class="item-cities__title">TURIN</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/05.jpg" alt="PARIS">
+                            </a>
+                            <a href="" class="item-cities__title">PARIS</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/06.jpg" alt="NEW YORK">
+                            </a>
+                            <a href="" class="item-cities__title">NEW YORK</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/07.jpg" alt="AMSTERDAM">
+                            </a>
+                            <a href="" class="item-cities__title">AMSTERDAM</a>
+                        </div>
+                    </div>
+                    <div class="cities__column">
+                        <div class="cities__item item-cities">
+                            <a href="" class="item-cities__image">
+                                <img src="img/cityes/08.jpg" alt="BARCELONA">
+                            </a>
+                            <a href="" class="item-cities__title">BARCELONA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-stories">
+            <div class="top-stories__container container">
+                <div class="top-stories__top-block top-block">
+                    <div class="top-block__row">
+                        <div class="top-block__column">
+                            <h2 class="top-block__title">Top Stor`ies</a></h2>
+                        </div>
+                        <div class="top-block__column">
+                            <a href="" class="top-block__btn-all">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-stories__slider slider">
+                    <div class="top-stories__swiper slider__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/01.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Chelsea vs Liverpool Carabao Cup final preview
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Chelsea and Liverpool have often served us some of the best football
+                                                matches in the English football calendar whenever they...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/02.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Is Bayern Munich suffering from the Harry Kane curse?
+                                            Is Bayern Munich suffering from the Harry Kane curse?
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Harry Kane moved to Bayern Munich at the start of this season to end his
+                                                ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/03.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Bayern Munich or Bayer Leverkusen: Who will win the Bundesliga?
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                This is one of the best Bundesliga seasons we have ever witnessed, as
+                                                Bayer Leverkusen refuses to give up on their dreams of...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/04.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Which teams will qualify for Europe in Serie A this season?
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Finishing inside the top four or a European place for some clubs in
+                                                their domestic league is the definition of having a...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/05.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Solving the post-Kylian Mbappe striker problem at PSG
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Solving the post-Kylian Mbappe striker problem at PSG Kylian Mbappe’s
+                                                futur G Kylian Mbappe’s future at PSG remains very unclear as the...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/01.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Chelsea vs Liverpool Carabao Cup final preview
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Chelsea and Liverpool have often served us some of the best football
+                                                matches in the English football calendar whenever they...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/02.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Is Bayern Munich suffering from the Harry Kane curse?
+                                            Is Bayern Munich suffering from the Harry Kane curse?
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                Harry Kane moved to Bayern Munich at the start of this season to end his
+                                                ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item item-slider">
+                                    <div class="item-slider__image-block">
+                                        <a href="" class="item-slider__image ibg">
+                                            <img src="img/slider/news/03.jpg" alt="sports-img">
+                                        </a>
+                                    </div>
+                                    <div class="item-slider__content item-slider__content_all">
+                                        <div class="item-slider__label">SPORTS</div>
+                                        <a href="" class="item-slider__title">
+                                            Bayern Munich or Bayer Leverkusen: Who will win the Bundesliga?
+                                        </a>
+                                        <div class="item-slider__text">
+                                            <p>
+                                                This is one of the best Bundesliga seasons we have ever witnessed, as
+                                                Bayer Leverkusen refuses to give up on their dreams of...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="item-slider__btn-more">
+                                        Read More
+                                        <span>
+                                            <img src="img/icons/arrow-more.svg" alt="arrow-more">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__navigation navigation">
+                        <div class="navigation__row">
+                            <button class="top-stories__btn_prev navigation__btn navigation__btn_prev">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="top-stories__btn_next navigation__btn navigation__btn_next">
+                                <svg>
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="footer__contacts contacts-footer">
+                    <div class="contacts-footer__item">
+                        <a href="" class="contacts-footer__address">
+                            Address Line 1<br>
+                            Address Line 2<br>
+                            City, ST 0000 0000
+                        </a>
+                    </div>
+                    <div class="contacts-footer__item">
+                        <a href="mailto:sales@seatsnet.com" class="contacts-footer__email">sales@seatsnet.com</a>
+                        <a href="tel:+4 (414) 16-732-832" class="contacts-footer__tel tel-contacts-footer">
+                            <span class="tel-contacts-footer__icon tel-contacts-footer__icon_whatsapp">
+                                <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                            </span>
+                            <span class="tel-contacts-footer__number">
+                                +4 (414) 16-732-832
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__safe-secure safe-secure-footer">
+                    <div class="safe-secure-footer__title footer__title">Safe & Secure</div>
+                    <div class="safe-secure-footer__items">
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/01.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                Buying 100% safe, only from approvals sellers.
+                            </div>
+                        </div>
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/02.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                Best customer service before and after purchasing.
+                            </div>
+                        </div>
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/03.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                100% secure payment system.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="safe-secure-footer__img">
+                        <img src="img/safe-secure/mastercard.svg" alt="mastercard-img">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__column">
+                <nav class="footer__menu menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Seatsnet Company</span>
+                            <a href="" class="menu-footer__link">News</a>
+                            <a href="" class="menu-footer__link">Help Center</a>
+                            <a href="" class="menu-footer__link">About Us</a>
+                            <a href="" class="menu-footer__link">Contact Seatsnet</a>
+                            <a href="" class="menu-footer__link">Affiliates</a>
+                            <a href="" class="menu-footer__link">Careers</a>
+                            <a href="" class="menu-footer__link">Gift Cards</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Settings</span>
+                            <span class="menu-footer__actions">
+                                <span
+                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
+                                    <select class="select-valute-2">
+                                        <option value="Euro" data-image="img/languages/euro.png"
+                                            data-second-image="img/icons/euro.svg" selected>
+                                            Euro
+                                        </option>
+                                        <option value="USD" data-image="img/languages/english.png"
+                                            data-second-image="img/icons/euro.svg">USD</option>
+                                        <option value="CAD" data-image="img/languages/canada.png"
+                                            data-second-image="img/icons/euro.svg">CAD</option>
+                                    </select>
+                                </span>
+                                <span
+                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
+                                    <select class="select-language-2">
+                                        <option value="English" data-image="img/languages/english.png" selected>
+                                            English
+                                        </option>
+                                        <option value="Spanish" data-image="img/languages/spanish.png">Spanish</option>
+                                        <option value="German" data-image="img/languages/german.png">German</option>
+                                        <option value="Italian" data-image="img/languages/italian.png">Italian</option>
+                                    </select>
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Most Popular Events</span>
+                            <a href="" class="menu-footer__link">Liverpool FC</a>
+                            <a href="" class="menu-footer__link">Arsenal</a>
+                            <a href="" class="menu-footer__link">Manchester United</a>
+                            <a href="" class="menu-footer__link">Chelsea</a>
+                            <a href="" class="menu-footer__link">Tottenham</a>
+                            <a href="" class="menu-footer__link">Manchester City</a>
+                            <a href="" class="menu-footer__link">FC Barcelona</a>
+                            <a href="" class="menu-footer__link">Real Madrid</a>
+                            <a href="" class="menu-footer__link">Champions League</a>
+                            <a href="" class="menu-footer__link">UEFA Europa League</a>
+                            <a href="" class="menu-footer__link">Juventus FC</a>
+                            <a href="" class="menu-footer__link">Paris Saint German</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__column">
+                <form action="#" class="footer__form form-footer">
+                    <div class="form-footer__title footer__title">Follow Us</div>
+                    <div class="form-footer__subtitle">
+                        <p>
+                            Subscribe to get our best deals. Be the first to know
+                        </p>
+                    </div>
+                    <div class="form-footer__item form__item">
+                        <input placeholder="Enter a e-mail address" autocomplete='off' type='emeil' name='form[]'
+                            class='form__input'>
+                    </div>
+                    <button type='submit' class='form-footer__btn form__btn-submit'>SUBSCRIBE NOW</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__copyright copyright">
+            <div class="copyright__top">
+                <span></span>
+                Use of this site signifies your agreement to <a href="">our terms and conditions</a>. <a href="">Privacy
+                    policy</a> and <a href="">cookies policy</a>.
+            </div>
+            <div class="copyright__bottom">
+                <div class="copyright__icon">
+                    <img src="img/icons/copyright.svg" alt="copyright">
+                </div>
+                <span>
+                    2004-2023 <a href="">Seatsnet.com</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <svg display="none">
     <symbol id="like" viewBox="0 0 20 19">
         <g>
             <path
@@ -1289,8 +3037,8 @@
         </g>
     </symbol>
 </svg>
-        <span class="select-close-trigger"></span>
-    </div>
+    <span class="select-close-trigger"></span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
