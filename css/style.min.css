@@ -6125,10 +6125,10 @@ h3 {
 }
 
 .actions__list {
-  display: flex;
-  align-items: center;
   overflow-y: auto;
   scrollbar-width: none;
+  display: flex;
+  align-items: center;
 }
 .actions__list::-webkit-scrollbar {
   display: none;
