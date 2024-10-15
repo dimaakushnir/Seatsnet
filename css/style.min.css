@@ -6124,14 +6124,16 @@ h3 {
   width: 240px;
 }
 
-.actions__list {
-  overflow-y: auto;
+.actions {
+  overflow-x: auto;
   scrollbar-width: none;
+}
+.actions::-webkit-scrollbar {
+  display: none;
+}
+.actions__list {
   display: flex;
   align-items: center;
-}
-.actions__list::-webkit-scrollbar {
-  display: none;
 }
 .actions__item:not(:last-child) {
   margin: 0 10px 0 0;
