@@ -152,11 +152,18 @@ h6 {
   font-size: inherit;
 }
 
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   color: #000;
   font-size: 14px;
   background-color: #F2F8FF;
   width: 100%;
+  max-width: 100%;
   min-height: 100%;
   overflow-x: hidden;
 }
@@ -180,6 +187,7 @@ body.lock {
 main {
   margin: 0 0 25px 0;
   width: 100%;
+  max-width: 100%;
   min-height: 100%;
   overflow: hidden;
 }
@@ -5851,11 +5859,6 @@ h3 {
   padding: 20px 0 0 0;
   border-top: 1px solid #c9daec;
 }
-@media (min-width: 480.98px) {
-  .explore-events__actions .item-actions__select-matches {
-    display: none;
-  }
-}
 
 .filter-tickets__row {
   display: flex;
@@ -6124,22 +6127,26 @@ h3 {
   width: 240px;
 }
 
-.actions {
+.actions__list {
   overflow-x: auto;
   scrollbar-width: none;
-}
-.actions::-webkit-scrollbar {
-  display: none;
-}
-.actions__list {
+  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
+}
+.actions__list::-webkit-scrollbar {
+  display: none;
 }
 .actions__item:not(:last-child) {
   margin: 0 10px 0 0;
 }
 
+.item-actions {
+  max-width: 100%;
+}
 .item-actions__select {
+  width: 100%;
   border: 1px solid rgba(24, 28, 219, 0.3);
   background: rgba(24, 28, 219, 0.04);
   border-radius: 30px !important;
@@ -6289,6 +6296,10 @@ h3 {
 }
 .item-actions__select-valute .valute-icon {
   margin: 0 0 0 3px;
+}
+
+.slider-actions__swiper .swiper-slide {
+  width: auto;
 }
 
 .slider-fullscreen__swiper .swiper-slide {

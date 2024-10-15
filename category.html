@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!-- <div class="wrapper"> -->
     <div class="top top_transparent">
         <div class="dashboard">
             <div class="dashboard__container container">
@@ -2192,79 +2191,99 @@
                     </div>
                 </div>
                 <div class="explore-events__actions actions">
-                    <ul class="actions__list">
-                        <li class="actions__item item-actions item-actions__select item-actions__select-location">
-                            <span class="item-actions__icon item-actions-header__icon">
-                                <svg>
-                                    <use xlink:href="#point"></use>
-                                </svg>
-                            </span>
-                            <select class="select-location actions__select-location">
-                                <option value="All Venues">
-                                    All Venues
-                                </option>
-                                <option value="Use My Location">
-                                    Use My Location
-                                </option>
-                                <option value="Getec Arena (ehem. Bordelandhalle)">
-                                    Getec Arena (ehem. Bordelandhalle)
-                                </option>
-                                <option value="Sala Polivalenta">
-                                    Sala Polivalenta
-                                </option>
-                                <option value="Wunderino Arena">
-                                    Wunderino Arena
-                                </option>
-                                <option value="London">
-                                    London
-                                </option>
-                                <option value="Zurich" selected>
-                                    Zurich
-                                </option>
-                            </select>
-                        </li>
-                        <li class="actions__item item-actions item-actions__select item-actions__select-date">
-                            <div class="item-actions-header__date">
-                                <div class="item-actions-header__date-icon">
-                                    <span>
-                                        <svg>
-                                            <use xlink:href="#calendar"></use>
-                                        </svg>
-                                    </span>
+                    <div class="actions__slider slider-actions">
+                        <div class="slider-actions__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="actions__item item-actions item-actions__select item-actions__select-location">
+                                        <span class="item-actions__icon item-actions-header__icon">
+                                            <svg>
+                                                <use xlink:href="#point"></use>
+                                            </svg>
+                                        </span>
+                                        <select class="select-location actions__select-location">
+                                            <option value="All Venues">
+                                                All Venues
+                                            </option>
+                                            <option value="Use My Location">
+                                                Use My Location
+                                            </option>
+                                            <option value="Getec Arena (ehem. Bordelandhalle)">
+                                                Getec Arena (ehem. Bordelandhalle)
+                                            </option>
+                                            <option value="Sala Polivalenta">
+                                                Sala Polivalenta
+                                            </option>
+                                            <option value="Wunderino Arena">
+                                                Wunderino Arena
+                                            </option>
+                                            <option value="London">
+                                                London
+                                            </option>
+                                            <option value="Zurich" selected>
+                                                Zurich
+                                            </option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div class="item-actions-header__date-value actions-data-value">Feb 05 - Feb14</div>
-                                <input type="text" id="date-range-actions" />
-                                <div class="item-actions-header__date-arrow"></div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="actions__item item-actions item-actions__select item-actions__select-date">
+                                        <div class="item-actions-header__date">
+                                            <div class="item-actions-header__date-icon">
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="#calendar"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="item-actions-header__date-value actions-data-value">Feb 05 -
+                                                Feb14</div>
+                                            <input type="text" id="date-range-actions" />
+                                            <div class="item-actions-header__date-arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="actions__item item-actions item-actions__select item-actions__select-matches">
+                                        <select class="select-matches actions__select-matches">
+                                            <option value="Any Matches">
+                                                Any Matches
+                                            </option>
+                                            <option value="Home Matches">
+                                                Home Matches
+                                            </option>
+                                            <option value="Away Matches">
+                                                Away Matches
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="actions__item item-actions item-actions__select item-actions__select-valute">
+                                        <select class="select-valute actions__select-valute">
+                                            <option value="Euro" data-image="img/languages/euro.png"
+                                                data-second-image="img/icons/euro.svg" data-label="Price" data-icon="€"
+                                                selected>
+                                                Euro
+                                            </option>
+                                            <option value="USD" data-image="img/languages/english.png"
+                                                data-second-image="img/icons/euro.svg" data-label="Price" data-icon="$">
+                                                USD
+                                            </option>
+                                            <option value="CAD" data-image="img/languages/canada.png"
+                                                data-second-image="img/icons/euro.svg" data-label="Price" data-icon="$">
+                                                CAD
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <li class="actions__item item-actions item-actions__select item-actions__select-matches">
-                            <select class="select-matches actions__select-matches">
-                                <option value="Any Matches">
-                                    Any Matches
-                                </option>
-                                <option value="Home Matches">
-                                    Home Matches
-                                </option>
-                                <option value="Away Matches">
-                                    Away Matches
-                                </option>
-                            </select>
-                        </li>
-                        <li class="actions__item item-actions item-actions__select item-actions__select-valute">
-                            <select class="select-valute actions__select-valute">
-                                <option value="Euro" data-image="img/languages/euro.png"
-                                    data-second-image="img/icons/euro.svg" data-label="Price" data-icon="€" selected>
-                                    Euro
-                                </option>
-                                <option value="USD" data-image="img/languages/english.png"
-                                    data-second-image="img/icons/euro.svg" data-label="Price" data-icon="$">USD
-                                </option>
-                                <option value="CAD" data-image="img/languages/canada.png"
-                                    data-second-image="img/icons/euro.svg" data-label="Price" data-icon="$">CAD
-                                </option>
-                            </select>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -3086,7 +3105,6 @@
     </symbol>
 </svg>
     <span class="select-close-trigger"></span>
-    <!-- </div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
