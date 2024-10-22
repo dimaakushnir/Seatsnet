@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="top top_transparent top_checkout">
+        <div class="dashboard">
+            <div class="dashboard__container container">
+                <div class="dashboard__row">
+                    <div class="dashboard__message">
+                        <p>
+                            We're a leading secondary ticket marketplace. <span>All sellers have a long track
+                                record.</span> Prices may differ from face value.
+                        </p>
+                    </div>
+                    <div class="dashboard__actions actions-dashboard">
+                        <ul class="actions-dashboard__list">
+                            <li class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_whatsapp">
+                                <a href="tel:+441416732832" class="item-actions-dashboard__link">
+                                    <span class="item-actions-dashboard__icon item-actions-dashboard__icon_whatsapp">
+                                        <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                                    </span>
+                                    <span class="item-actions-dashboard__number">
+                                        +4 (414) 16-732-832
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_chat">
+                                <a href="" class="item-actions-dashboard__link">
+                                    <span class="item-actions-dashboard__label">
+                                        Chat
+                                    </span>
+                                    <span class="item-actions-dashboard__icon item-actions-dashboard__icon_chat">
+                                        <img src="img/icons/chat.svg" alt="chat">
+                                    </span>
+                                </a>
+                            </li>
+                            <li
+                                class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
+                                <select class="select-valute">
+                                    <option value="Euro" data-image="img/languages/euro.png"
+                                        data-second-image="img/icons/euro.svg" selected>
+                                        Euro
+                                    </option>
+                                    <option value="USD" data-image="img/languages/english.png"
+                                        data-second-image="img/icons/euro.svg">USD</option>
+                                    <option value="CAD" data-image="img/languages/canada.png"
+                                        data-second-image="img/icons/euro.svg">CAD</option>
+                                </select>
+                            </li>
+                            <li
+                                class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
+                                <select class="select-language">
+                                    <option value="English" data-image="img/languages/english.png" selected>
+                                        English
+                                    </option>
+                                    <option value="Spanish" data-image="img/languages/spanish.png">Spanish</option>
+                                    <option value="German" data-image="img/languages/german.png">German</option>
+                                    <option value="Italian" data-image="img/languages/italian.png">Italian</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__body">
+                <div class="header__container container">
+                    <div class="header__top top-header">
+                        <div class="top-header__column top-header__column_1">
+                            <a href="" class="header__btn-back">
+                                <img src="img/icons/back.svg" alt="">
+                            </a>
+                            <div class="top-header__logo-block">
+                                <a href="index.html" class="top-header__logo">
+                                    <img src="img/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                            <div class="top-header__burger">
+                                <button class="burger">
+                                    <span></span><span></span><span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__bottom bottom-header">
+                        <div class="bottom-header__column">
+                            <nav class="bottom-header__menu menu-header" data-da="mobile-header__body, 0, 992.98">
+                                <ul class="menu-header__list">
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link link-click">
+                                            Sports
+                                        </a>
+                                        <span class="submenu-header">
+                                            <ul class="submenu-header__list">
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">MLB</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">NBA</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">NFL</a>
+                                                    <span class="subsubmenu-header">
+                                                        <ul class="subsubmenu-header__list">
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Arizona
+                                                                    Cardinals</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Atlanta
+                                                                    Falcons</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Baltimore
+                                                                    Ravens</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Buffalo
+                                                                    Bills</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Carolina
+                                                                    Panthers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Chicago
+                                                                    bears</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Cincinnati
+                                                                    Bengals</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Cleveland
+                                                                    Browns</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Dallas
+                                                                    Cowboys</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Denver
+                                                                    Broncos</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Detroit
+                                                                    Lions</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Green Bay
+                                                                    Packeers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Houston
+                                                                    Texans</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Indianapolis
+                                                                    Colts</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Jacksonville
+                                                                    Jaguars</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">kansas
+                                                                    City
+                                                                    Chiefs</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Las Vegas
+                                                                    Raiders</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Los
+                                                                    Angeles
+                                                                    Chargers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Los
+                                                                    Angeles
+                                                                    Rams</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Miami
+                                                                    Dolphins</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Minnesota
+                                                                    Vikings</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">New
+                                                                    England
+                                                                    Patriots</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">New
+                                                                    Orleans
+                                                                    Saints</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">New York
+                                                                    Giants</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">New York
+                                                                    Jets</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Philadelphia
+                                                                    Eagles</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Pittsburgh
+                                                                    Steelers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">San
+                                                                    Francisco
+                                                                    49ers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Seattle
+                                                                    Seahawks</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Tampa Bay
+                                                                    Buccaneers</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Tennessee
+                                                                    Titans</a>
+                                                            </li>
+                                                            <li class="subsubmenu-header__item">
+                                                                <a href="" class="subsubmenu-header__link">Washington
+                                                                    Commanders</a>
+                                                            </li>
+                                                        </ul>
+                                                    </span>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">Tennis</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">Rugby</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">Golf</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">Cricket</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">College Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">Volleyball</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                                <li class="submenu-header__item">
+                                                    <a href="" class="submenu-header__link">All Sports</a>
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link link-click">
+                                            Concerts
+                                        </a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link link-click">
+                                            Theatre
+                                        </a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link link-click">
+                                            Festivals
+                                        </a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link">
+                                            Gift Cards
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile mobile-header">
+                <div class="mobile-header__top">
+                    <a href="" class="mobile-header__back">
+                        <span>
+                            <img src="img/icons/back.svg" alt="back">
+                        </span>
+                        Back
+                    </a>
+                    <button class="mobile-header__burger">
+                        <span></span><span></span>
+                    </button>
+                </div>
+                <div class="mobile-header__body"></div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="checkout">
+            <div class="checkout__container container">
+                <div class="checkout__slider slider-checkout slider-checkout-3">
+                    <div class="slider-checkout-3__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider-checkout__item item-slider-checkout">
+                                    <div class="item-slider-checkout__icons">
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                    </div>
+                                    <div class="item-slider-checkout__title">
+                                        Stressful..but untimately delivered!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-checkout__item item-slider-checkout">
+                                    <div class="item-slider-checkout__icons">
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                    </div>
+                                    <div class="item-slider-checkout__title">
+                                        Stressful..but untimately delivered!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-checkout__item item-slider-checkout">
+                                    <div class="item-slider-checkout__icons">
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                        <div class="item-slider-checkout__icon">
+                                            <img src="img/icons/star.png" alt="star">
+                                        </div>
+                                    </div>
+                                    <div class="item-slider-checkout__title">
+                                        Stressful..but untimately delivered!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="checkout__form form-checkout">
+                    <div class="checkout__row">
+                        <div class="checkout__column checkout__column_steps">
+                            <div class="checkout__block checkout__block_step-1">
+                                <div class="form-checkout__top top-form-checkout">
+                                    <div class="top-form-checkout__title-block">
+                                        <h2 class="top-form-checkout__title top-form-checkout__title_desctop">
+                                            <span>Step 1:</span>
+                                            Please confirm how many tickets you would like to purchase
+                                        </h2>
+                                        <h2 class="top-form-checkout__title top-form-checkout__title_mobile">
+                                            <span>Step 1:</span>
+                                            No. ticket & contact detail
+                                        </h2>
+                                        <div class="top-form-checkout__subtitle top-form-checkout__subtitle_mobile">
+                                            <p>
+                                                Please confirm how many tickets you would like to purchase
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-checkout__body">
+                                    <div class="form-checkout__number number-form-checkout">
+                                        <div class="number-form-checkout__label number-form-checkout__label_desctop">
+                                            Number of Tickets</div>
+                                        <div class="number-form-checkout__label number-form-checkout__label_mobile">
+                                            No. of Tickets</div>
+                                        <div class="number-form-checkout__item">
+                                            <button class="number-form-checkout__btn number-form-checkout__btn_minus">
+                                                <img src="img/icons/input-minus.svg" alt="minus">
+                                            </button>
+                                            <input value="1" min="1" step="1" autocomplete='off' type='number'
+                                                name='form[]' class='number-form-checkout__input'>
+                                            <button class="number-form-checkout__btn number-form-checkout__btn_plus">
+                                                <img src="img/icons/input-plus.svg" alt="minus">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="form-checkout__items main-form__items">
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Email Address
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <input placeholder="Email" autocomplete='off' type='email' name='form[]'
+                                                    class='item-main-form__input req'>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter valid email address
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form item-main-form_phone">
+                                                <div class="item-main-form__label label-item-main-form form-item_phone">
+                                                    Phone / Mobile Number
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <input placeholder="" autocomplete='off' type='tel' name='form[]'
+                                                    class='item-main-form__input phone req'>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter valid phone number
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__block checkout__block_step-2">
+                                <div class="form-checkout__top top-form-checkout">
+                                    <div class="top-form-checkout__title-block">
+                                        <h2 class="top-form-checkout__title">
+                                            <span>Step 2:</span>
+                                            Billing details
+                                        </h2>
+                                        <div class="top-form-checkout__subtitle">
+                                            <p>
+                                                Almost done! Just fill in the <span>required</span> information
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="top-form-checkout__options options-top-form-checkout">
+                                        <div class="options-top-form-checkout__item">
+                                            <input id="formRegistration" checked autocomplete='off' type='radio'
+                                                value="New Customer" name='form[]'
+                                                class='options-top-form-checkout__input'>
+                                            <label for="formRegistration"
+                                                class="options-top-form-checkout__label"><span>New
+                                                    Customer</span></label>
+                                        </div>
+                                        <div class="options-top-form-checkout__item">
+                                            <input id="formLeftHanded" autocomplete='off' type='radio' value="Login Now"
+                                                name='form[]' class='options-top-form-checkout__input'>
+                                            <label for="formLeftHanded"
+                                                class="options-top-form-checkout__label"><span>Login
+                                                    Now</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-checkout__body">
+                                    <div class="form-checkout__items main-form__items">
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_big main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Full Name
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <input placeholder="Full Name" autocomplete='off' type='text'
+                                                    name='form[]' class='item-main-form__input req'>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter full name
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_small main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Password
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <div class="item-main-form__password">
+                                                    <input placeholder="Enter Password" autocomplete='off'
+                                                        type='password' name='form[]'
+                                                        class='item-main-form__input form__input req'>
+                                                    <span class="form__password-show">
+                                                        <svg>
+                                                            <use xlink:href="#password"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter password
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_small main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Confirm Password
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <div class="item-main-form__password">
+                                                    <input placeholder="Enter Password" autocomplete='off'
+                                                        type='password' name='form[]'
+                                                        class='item-main-form__input form__input req'>
+                                                    <span class="form__password-show">
+                                                        <svg>
+                                                            <use xlink:href="#password"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter password
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_small main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Zip/Postal Code
+                                                </div>
+                                                <input placeholder="Zip/Postal " autocomplete='off' type='text'
+                                                    name='form[]' class='item-main-form__input'>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form item-main-form_select">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Country
+                                                </div>
+                                                <input placeholder="Country" autocomplete='off' type='text'
+                                                    name='form[]' class='item-main-form__input'>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Address
+                                                </div>
+                                                <input placeholder="Address" autocomplete='off' type='text'
+                                                    name='form[]' class='item-main-form__input'>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form item-main-form_select">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    State
+                                                </div>
+                                                <select class="select-state" data-placeholder="State">
+                                                    <!-- empty first option for placeholder -->
+                                                    <option></option>
+                                                    <option value="Value 1">
+                                                        Value 1
+                                                    </option>
+                                                    <option value="Value 1">
+                                                        Value 1
+                                                    </option>
+                                                    <option value="Value 1">
+                                                        Value 1
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    City
+                                                </div>
+                                                <input placeholder="City" autocomplete='off' type='text' name='form[]'
+                                                    class='item-main-form__input'>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__block checkout__block_step-3">
+                                <div class="form-checkout__top top-form-checkout">
+                                    <div class="top-form-checkout__title-block">
+                                        <h2 class="top-form-checkout__title">
+                                            <span>Step 3:</span>
+                                            Choose delivery option
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="form-checkout__body">
+                                    <div class="form-checkout__text">
+                                        <p>
+                                            Lucky you! You selected the value for money tickets.<br>
+                                            <span class="green">Don’t miss our price - <span class="bold">Book
+                                                    Now!</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="form-checkout__options options-form-checkout">
+                                        <div class="options-form-checkout__item">
+                                            <input id="formDeliveryMobile" autocomplete='off' type='radio'
+                                                value="New Customer" name='form[]' class='options-form-checkout__input'>
+                                            <label for="formDeliveryMobile" class="options-form-checkout__label">
+                                                <span class="options-form-checkout__label-text">Mobile (Wallet)
+                                                    Tickets</span>
+                                                <span class="options-form-checkout__label-shipping">Free
+                                                    Shipping</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__block checkout__block_step-4">
+                                <div class="form-checkout__top top-form-checkout">
+                                    <div class="top-form-checkout__title-block">
+                                        <h2 class="top-form-checkout__title">
+                                            <span>Step 4:</span>
+                                            Delivery details
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="form-checkout__body">
+                                    <div class="form-checkout__message">
+                                        <p>
+                                            You will receive an email notification when your “Arsenal vs Brighton &
+                                            Hove
+                                            Albion” tickets shipped.
+                                        </p>
+                                    </div>
+                                    <div class="form-checkout__items main-form__items">
+                                        <div class="form-checkout__items-column main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="form-checkout__checkbox">
+                                                    <input id="formAgreement" type='checkbox' name='form[]'
+                                                        class='form-checkout__checkbox-input'>
+                                                    <label for="formAgreement"
+                                                        class="form-checkout__checkbox-label">Don’t miss out our
+                                                        hottest
+                                                        deals and more of your favourites events to be sent to your
+                                                        inbox. By opting in, you consent to receiving emails about
+                                                        upcoming events and special offers in accordance with our
+                                                        privacy policy.</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-checkout__items-column form-checkout__items-column_medium main-form__items-column">
+                                            <div class="main-form__item item-main-form">
+                                                <div class="item-main-form__label label-item-main-form">
+                                                    Email Address
+                                                    <span class="label-item-main-form__icon">*</span>
+                                                </div>
+                                                <input placeholder="Email" autocomplete='off' type='email' name='form[]'
+                                                    class='item-main-form__input req'>
+                                                <span class="item-main-form__message">
+                                                    <span class="item-main-form__message-icon">
+                                                        <img src="img/icons/error.svg" alt="error">
+                                                    </span>
+                                                    Enter valid email address
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__block checkout__block_step-5">
+                                <div class="form-checkout__content">
+                                    <div class="form-checkout__top top-form-checkout">
+                                        <div class="top-form-checkout__title-block">
+                                            <h2 class="top-form-checkout__title">
+                                                <span>Step 5:</span>
+                                                Payment information
+                                            </h2>
+                                            <div class="top-form-checkout__info info-top-form-checkout">
+                                                <div class="info-top-form-checkout__title">Great choice!</div>
+                                                <div class="info-top-form-checkout__items">
+                                                    <div
+                                                        class="info-top-form-checkout__item info-top-form-checkout__item_fail">
+                                                        Great choice on average, customer paid <span>Euro
+                                                            207.65</span>
+                                                        per
+                                                        ticket for this event
+                                                    </div>
+                                                    <div
+                                                        class="info-top-form-checkout__item info-top-form-checkout__item_success">
+                                                        More than the <span>Euro 83.00</span> tickets you’ve
+                                                        selected
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-checkout__body">
+                                        <div class="form-checkout__terms-conditions terms-conditions">
+                                            <div class="terms-conditions__top">
+                                                Terms & conditions
+                                            </div>
+                                            <div class="terms-conditions__body">
+                                                <div class="terms-conditions__inner">
+                                                    <ul class="terms-conditions__list">
+                                                        <li class="terms-conditions__list-item">
+                                                            <span class="terms-conditions__list-title">Global
+                                                                terms</span>
+                                                            <span class="terms-conditions__list-text">
+                                                                <p>
+                                                                    TICKET MARKET FZCO which is registered in Dubai
+                                                                    Silicon
+                                                                    oasis, DDP, Building A1, Dubai, United Arab
+                                                                    Emirates
+                                                                    and
+                                                                    VIP SPORT TICKETS SELLING LLC which is
+                                                                    registered in
+                                                                    NASSER LOOTAH AIRPORT BUILDING TICKET MARKET FZa
+                                                                    sfasdfsdf CO which is registered in Dubai
+                                                                    Silicon
+                                                                    oaadfas fsaf asfasdfsis, DDP, Building A1,
+                                                                     Dubai,
+                                                                    United Arab Emirates and VIP SPORT TICKETS
+                                                                    SELLING
+                                                                    LLC
+                                                                    which is registered in NASSER LOOTAH AIRPORT
+                                                                    BUILDING
+                                                                </p>
+                                                            </span>
+                                                        </li>
+                                                        <li class="terms-conditions__list-item">
+                                                            <span class="terms-conditions__list-title">Global
+                                                                terms</span>
+                                                            <span class="terms-conditions__list-text">
+                                                                <p>
+                                                                    TICKET MARKET FZCO which is registered in Dubai
+                                                                    Silicon
+                                                                    oasis, DDP, Building A1, Dubai, United Arab
+                                                                    Emirates
+                                                                    and
+                                                                    VIP SPORT TICKETS SELLING LLC which is
+                                                                    registered in
+                                                                    NASSER LOOTAH AIRPORT BUILDING TICKET MARKET FZa
+                                                                    sfasdfsdf CO which is registered in Dubai
+                                                                    Silicon
+                                                                    oaadfas fsaf asfasdfsis, DDP, Building A1,
+                                                                     Dubai,
+                                                                    United Arab Emirates and VIP SPORT TICKETS
+                                                                    SELLING
+                                                                    LLC
+                                                                    which is registered in NASSER LOOTAH AIRPORT
+                                                                    BUILDING
+                                                                </p>
+                                                            </span>
+                                                        </li>
+                                                        <li class="terms-conditions__list-item">
+                                                            <span class="terms-conditions__list-title">Global
+                                                                terms</span>
+                                                            <span class="terms-conditions__list-text">
+                                                                <p>
+                                                                    TICKET MARKET FZCO which is registered in Dubai
+                                                                    Silicon
+                                                                    oasis, DDP, Building A1, Dubai, United Arab
+                                                                    Emirates
+                                                                    and
+                                                                    VIP SPORT TICKETS SELLING LLC which is
+                                                                    registered in
+                                                                    NASSER LOOTAH AIRPORT BUILDING TICKET MARKET FZa
+                                                                    sfasdfsdf CO which is registered in Dubai
+                                                                    Silicon
+                                                                    oaadfas fsaf asfasdfsis, DDP, Building A1,
+                                                                     Dubai,
+                                                                    United Arab Emirates and VIP SPORT TICKETS
+                                                                    SELLING
+                                                                    LLC
+                                                                    which is registered in NASSER LOOTAH AIRPORT
+                                                                    BUILDING
+                                                                </p>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-checkout__row">
+                                            <div class="form-checkout__checkbox">
+                                                <input id="formAgreementTermsConditions" type='checkbox' name='form[]'
+                                                    class='form-checkout__checkbox-input'>
+                                                <label for="formAgreementTermsConditions"
+                                                    class="form-checkout__checkbox-label">Select this
+                                                    checkbox to accept the Terms & Conditions.</label>
+                                            </div>
+                                            <div class="form-checkout__payment-systems">
+                                                <div class="form-checkout__payment-systems-item">
+                                                    <img src="img/icons/visa.svg" alt="visa">
+                                                </div>
+                                                <div class="form-checkout__payment-systems-item">
+                                                    <img src="img/icons/mastercard.svg" alt="mastercard">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="" class='form-checkout__btn-apply-coupon'>APPLY COUPON</a>
+                                    </div>
+                                </div>
+                                <div class="form-checkout__textarea main-form__textarea-item">
+                                    <textarea placeholder="You can leave us comments here" name="form[]"
+                                        class="main-form__textarea"></textarea>
+                                </div>
+                                <div class="form-checkout__message">
+                                    <p>
+                                        We will send you instant confirmation
+                                    </p>
+                                </div>
+                            </div>
+                            <button type='submit' class='form-checkout__submit main-form__submit'>
+                                <span class="main-form__submit-icon">
+                                    <img src="img/icons/submit-icon.svg" alt="submit-icon">
+                                </span>
+                                MAKE SECURE PAYMENT NOW
+                            </button>
+                            <button class='form-checkout__continue'>
+                                CONTINUE
+                                <span class="form-checkout__continue-icon">
+                                    <img src="img/icons/arrow-submit.svg" alt="arrow-submit">
+                                </span>
+                            </button>
+                            <div class="checkout__bottom bottom-checkout">
+                                <div class="bottom-checkout__slider slider-checkout slider-checkout-1">
+                                    <div class="slider-checkout-1__swiper swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-checkout__navigation">
+                                        <button
+                                            class="slider-checkout-1__btn_prev slider-checkout__btn slider-checkout__btn_prev">
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </button>
+                                        <button
+                                            class="slider-checkout-1__btn_next slider-checkout__btn slider-checkout__btn_next">
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="bottom-checkout__info info-bottom-checkout">
+                                    <div
+                                        class="info-bottom-checkout__item item-info-bottom-checkout item-info-bottom-checkout_blue">
+                                        <div class="item-info-bottom-checkout__icon">
+                                            <img src="img/icons/verified.svg" alt="verified">
+                                        </div>
+                                        <div class="item-info-bottom-checkout__content">
+                                            <div class="item-info-bottom-checkout__title">150% Refund</div>
+                                            <div class="item-info-bottom-checkout__text">
+                                                <p>
+                                                    We back every order - Get 100% back to your original payment method
+                                                    plus 50% extra credit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="info-bottom-checkout__item item-info-bottom-checkout item-info-bottom-checkout_violet">
+                                        <div class="item-info-bottom-checkout__icon">
+                                            <img src="img/icons/verified.svg" alt="verified">
+                                        </div>
+                                        <div class="item-info-bottom-checkout__content">
+                                            <div class="item-info-bottom-checkout__title">Resell Anytime</div>
+                                            <div class="item-info-bottom-checkout__text">
+                                                <p>
+                                                    Unsure about attending this event? No worries—resell your tickets on
+                                                    Seatsnet anytime.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__column">
+                            <div class="checkout__timer timer" data-da="checkout, 0, 1275">
+                                <div class="scrollbar scrollbar_step-1">
+                                    <div class="scrollbar__line"></div>
+                                </div>
+                                <div class="timer__row">
+                                    <div class="timer__main main-timer">
+                                        <div class="main-timer__body" id="timer">
+                                            <div class="digit" id="minuteTens">1</div>
+                                            <div class="digit" id="minuteOnes">0</div>
+                                            <div class="colon">:</div>
+                                            <div class="digit" id="secondTens">0</div>
+                                            <div class="digit" id="secondOnes">0</div>
+                                        </div>
+                                    </div>
+                                    <div class="timer__content">
+                                        <div class="timer__title">
+                                            Left to complete purchase
+                                            <span class="timer__title-icon info-icon">
+                                                <span class="info-icon__text">
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+                                                    officia?
+                                                </span>
+                                                <svg>
+                                                    <use xlink:href="#info"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="timer__text">
+                                            <p>
+                                                Your price is guaranteed for this time!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__details details-checkout">
+                                <div class="details-checkout__item item-details-checkout order-detail">
+                                    <div class="item-details-checkout__top">
+                                        <div class="item-details-checkout__title">Your order detail</div>
+                                    </div>
+                                    <div class="item-details-checkout__body">
+                                        <div class="order-detail__event">Real Madrid vs Villarreal CF</div>
+                                        <div class="order-detail__tribune">Section Tribune A</div>
+                                        <div class="order-detail__date-info date-info-order-detail">
+                                            <div class="date-info-order-detail__column">
+                                                <div class="date-info-order-detail__item">
+                                                    <div class="date-info-order-detail__item-icon">
+                                                        <svg>
+                                                            <use xlink:href="#calendar"></use>
+                                                        </svg>
+                                                    </div>
+                                                    16 Dec 2023
+                                                </div>
+                                            </div>
+                                            <div class="date-info-order-detail__column">
+                                                <div class="date-info-order-detail__item">
+                                                    <div class="date-info-order-detail__item-icon">
+                                                        <svg>
+                                                            <use xlink:href="#time"></use>
+                                                        </svg>
+                                                    </div>
+                                                    16:30
+                                                </div>
+                                            </div>
+                                            <div class="date-info-order-detail__column">
+                                                <div class="date-info-order-detail__item">
+                                                    Next Month
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="order-detail__number number-form-checkout">
+                                            <div
+                                                class="number-form-checkout__label number-form-checkout__label_desctop">
+                                                Number of Tickets</div>
+                                            <div class="number-form-checkout__label number-form-checkout__label_mobile">
+                                                No. of Tickets</div>
+                                            <div class="number-form-checkout__item">
+                                                <button
+                                                    class="number-form-checkout__btn number-form-checkout__btn_minus">
+                                                    <img src="img/icons/input-minus.svg" alt="minus">
+                                                </button>
+                                                <input value="1" min="1" step="1" autocomplete='off' type='number'
+                                                    name='form[]' class='number-form-checkout__input'>
+                                                <button
+                                                    class="number-form-checkout__btn number-form-checkout__btn_plus">
+                                                    <img src="img/icons/input-plus.svg" alt="minus">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="order-detail__list">
+                                            <div class="order-detail__list list-order-detail">
+                                                <div class="list-order-detail__item">
+                                                    <div class="list-order-detail__label">Section Tribune A</div>
+                                                    <div class="list-order-detail__value">
+                                                        <div class="list-order-detail__value-number">2</div>
+                                                        <span>x</span>
+                                                        <div class="list-order-detail__value-price">150</div>
+                                                    </div>
+                                                </div>
+                                                <div class="list-order-detail__item">
+                                                    <div class="list-order-detail__label">Handling Fees</div>
+                                                    <div class="list-order-detail__value">
+                                                        <div class="list-order-detail__value-number">1</div>
+                                                        <span>x</span>
+                                                        <div class="list-order-detail__value-price">32</div>
+                                                    </div>
+                                                </div>
+                                                <div class="list-order-detail__item">
+                                                    <div class="list-order-detail__label">Delivery & Shipping Charges
+                                                    </div>
+                                                    <div class="list-order-detail__value">
+                                                        <div class="list-order-detail__value-number">1</div>
+                                                        <span>x</span>
+                                                        <div class="list-order-detail__value-price">32</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-details-checkout__bottom">
+                                        <div class="item-details-checkout__total">
+                                            <div class="item-details-checkout__total-label">Total</div>
+                                            <div class="item-details-checkout__total-value">207.65</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details-checkout__slider slider-checkout slider-checkout-2">
+                                    <div class="slider-checkout-2__swiper swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="slider-checkout__item item-slider-checkout">
+                                                    <div class="item-slider-checkout__icons">
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                        <div class="item-slider-checkout__icon">
+                                                            <img src="img/icons/star.png" alt="star">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-slider-checkout__title">
+                                                        Stressful..but untimately delivered!
+                                                    </div>
+                                                    <div class="item-slider-checkout__text">
+                                                        <p>
+                                                            Well what a strange experience. Bought tix for Spurs v
+                                                            Arsenal for me and my son
+                                                        </p>
+                                                    </div>
+                                                    <div class="item-slider-checkout__bottom">
+                                                        <div class="item-slider-checkout__name">Steve.</div>
+                                                        <div class="item-slider-checkout__date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-checkout__navigation">
+                                        <button
+                                            class="slider-checkout-2__btn_prev slider-checkout__btn slider-checkout__btn_prev">
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </button>
+                                        <button
+                                            class="slider-checkout-2__btn_next slider-checkout__btn slider-checkout__btn_next">
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="details-checkout__item item-details-checkout demand-event">
+                                    <div class="item-details-checkout__top">
+                                        <div class="item-details-checkout__title">DEMAND FOR THIS EVENT</div>
+                                    </div>
+                                    <div class="item-details-checkout__body">
+                                        <div class="demand-event__items">
+                                            <div class="demand-event__item demand-event__item_low">
+                                                <div class="demand-event__label">Low</div>
+                                                <div class="demand-event__line"></div>
+                                            </div>
+                                            <div class="demand-event__item demand-event__item_medium">
+                                                <div class="demand-event__label">Medium</div>
+                                                <div class="demand-event__line"></div>
+                                            </div>
+                                            <div class="demand-event__item demand-event__item_high active">
+                                                <div class="demand-event__label">High</div>
+                                                <div class="demand-event__line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="demand-event__text">
+                                            for EHF Chamipions League
+                                            <span class="demand-event__text-icon info-icon">
+                                                <span class="info-icon__text">
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+                                                    officia?
+                                                </span>
+                                                <svg>
+                                                    <use xlink:href="#info"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details-checkout__message form-checkout__message">
+                                    <p>
+                                        You will receive an email notification when your “Arsenal vs Brighton & Hove
+                                        Albion” tickets shipped.
+                                    </p>
+                                </div>
+                                <div class="details-checkout__item item-details-checkout special-notes">
+                                    <div class="item-details-checkout__top">
+                                        <div class="item-details-checkout__title">SPECIAL NOTES</div>
+                                    </div>
+                                    <div class="item-details-checkout__body">
+                                        <div class="special-notes__text">
+                                            <span>2 People viewed this event</span> in the past hour<br>
+                                            <span>Best-selling section</span>for this event
+                                            <span class="special-notes__text-icon info-icon">
+                                                <span class="info-icon__text">
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+                                                    officia?
+                                                </span>
+                                                <svg>
+                                                    <use xlink:href="#info"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details-checkout__info info-details-checkout">
+                                    <div class="info-details-checkout__element info-details-checkout__element_perks">
+                                        <div class="info-details-checkout__top top-info-details-checkout">
+                                            <div class="top-info-details-checkout__title">Perks</div>
+                                            <div class="top-info-details-checkout__icon">
+                                                <img src="img/icons/arrow-faq.svg" alt="arrow">
+                                            </div>
+                                        </div>
+                                        <div class="info-details-checkout__body">
+                                            <div class="info-details-checkout__content">
+                                                <div class="info-details-checkout__row">
+                                                    <div class="info-details-checkout__column">
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/view.svg" alt="view">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                Unrestricted View
+                                                                <span
+                                                                    class="item-info-details-checkout__text-icon info-icon">
+                                                                    <svg>
+                                                                        <use xlink:href="#info"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/amchairs.svg"
+                                                                    alt="amchairs">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                Seated Together
+                                                                <span
+                                                                    class="item-info-details-checkout__text-icon info-icon">
+                                                                    <svg>
+                                                                        <use xlink:href="#info"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/star.svg" alt="star">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                Hospitality
+                                                                <span
+                                                                    class="item-info-details-checkout__text-icon info-icon">
+                                                                    <svg>
+                                                                        <use xlink:href="#info"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-details-checkout__column">
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/success.svg" alt="success">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                Plan shifts? Can resell
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/success.svg" alt="success">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                Sellers assure the authenticity of tickets.
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="info-details-checkout__item item-info-details-checkout">
+                                                            <div class="item-info-details-checkout__icon">
+                                                                <img src="img/order-details/success.svg" alt="success">
+                                                            </div>
+                                                            <div class="item-info-details-checkout__text">
+                                                                End-to-end customer service, from buying to sitting.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="info-details-checkout__element info-details-checkout__element_your-seats">
+                                        <div class="info-details-checkout__top top-info-details-checkout">
+                                            <div class="top-info-details-checkout__title">Your Seats</div>
+                                            <div class="top-info-details-checkout__icon">
+                                                <img src="img/icons/arrow-faq.svg" alt="arrow">
+                                            </div>
+                                        </div>
+                                        <div class="info-details-checkout__body">
+                                            <div class="info-details-checkout__content">
+                                                <div class="info-details-checkout__tikets">
+                                                    <div class="info-details-checkout__tikets-label">Number of Tickets:
+                                                    </div>
+                                                    <div class="info-details-checkout__tikets-value">2</div>
+                                                </div>
+                                                <div class="info-details-checkout__section">
+                                                    <div class="info-details-checkout__section-label">SECTION:</div>
+                                                    <div class="info-details-checkout__section-value">Tribune A</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-details-checkout__element info-details-checkout__element_book">
+                                        <div class="info-details-checkout__top top-info-details-checkout">
+                                            <div class="top-info-details-checkout__title">Why book with Seatsnet</div>
+                                            <div class="top-info-details-checkout__icon">
+                                                <img src="img/icons/arrow-faq.svg" alt="arrow">
+                                            </div>
+                                        </div>
+                                        <div class="info-details-checkout__body">
+                                            <div class="info-details-checkout__content">
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Tickets listing only by trusted sellers
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Sellers guaranteed original tickets
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Receive your tickets on time
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Real time ongoing tickets availability
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Excellent customer service
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        Secure payment
+                                                    </div>
+                                                </div>
+                                                <div class="info-details-checkout__item item-info-details-checkout">
+                                                    <div class="item-info-details-checkout__icon">
+                                                        <img src="img/order-details/success.svg" alt="success">
+                                                    </div>
+                                                    <div class="item-info-details-checkout__text">
+                                                        In business since 2004
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__row">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="footer__contacts contacts-footer">
+                    <div class="contacts-footer__item">
+                        <a href="" class="contacts-footer__address">
+                            Address Line 1<br>
+                            Address Line 2<br>
+                            City, ST 0000 0000
+                        </a>
+                    </div>
+                    <div class="contacts-footer__item">
+                        <a href="mailto:sales@seatsnet.com" class="contacts-footer__email">sales@seatsnet.com</a>
+                        <a href="tel:+4 (414) 16-732-832" class="contacts-footer__tel tel-contacts-footer">
+                            <span class="tel-contacts-footer__icon tel-contacts-footer__icon_whatsapp">
+                                <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                            </span>
+                            <span class="tel-contacts-footer__number">
+                                +4 (414) 16-732-832
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__safe-secure safe-secure-footer">
+                    <div class="safe-secure-footer__title footer__title">Safe & Secure</div>
+                    <div class="safe-secure-footer__items">
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/01.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                Buying 100% safe, only from approvals sellers.
+                            </div>
+                        </div>
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/02.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                Best customer service before and after purchasing.
+                            </div>
+                        </div>
+                        <div class="safe-secure-footer__item item-safe-secure-footer">
+                            <div class="safe-secure-footer__icon">
+                                <img src="img/safe-secure/03.svg" alt="safe-secure-img">
+                            </div>
+                            <div class="safe-secure-footer__text">
+                                100% secure payment system.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="safe-secure-footer__img">
+                        <img src="img/safe-secure/mastercard.svg" alt="mastercard-img">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__column">
+                <nav class="footer__menu menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Seatsnet Company</span>
+                            <a href="" class="menu-footer__link">News</a>
+                            <a href="" class="menu-footer__link">Help Center</a>
+                            <a href="" class="menu-footer__link">About Us</a>
+                            <a href="" class="menu-footer__link">Contact Seatsnet</a>
+                            <a href="" class="menu-footer__link">Affiliates</a>
+                            <a href="" class="menu-footer__link">Careers</a>
+                            <a href="" class="menu-footer__link">Gift Cards</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Settings</span>
+                            <span class="menu-footer__actions">
+                                <span
+                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-valute">
+                                    <select class="select-valute-2">
+                                        <option value="Euro" data-image="img/languages/euro.png"
+                                            data-second-image="img/icons/euro.svg" selected>
+                                            Euro
+                                        </option>
+                                        <option value="USD" data-image="img/languages/english.png"
+                                            data-second-image="img/icons/euro.svg">USD</option>
+                                        <option value="CAD" data-image="img/languages/canada.png"
+                                            data-second-image="img/icons/euro.svg">CAD</option>
+                                    </select>
+                                </span>
+                                <span
+                                    class="actions-dashboard__item item-actions-dashboard item-actions-dashboard_select item-actions-dashboard_select-language">
+                                    <select class="select-language-2">
+                                        <option value="English" data-image="img/languages/english.png" selected>
+                                            English
+                                        </option>
+                                        <option value="Spanish" data-image="img/languages/spanish.png">Spanish</option>
+                                        <option value="German" data-image="img/languages/german.png">German</option>
+                                        <option value="Italian" data-image="img/languages/italian.png">Italian</option>
+                                    </select>
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <span class="menu-footer__title">Most Popular Events</span>
+                            <a href="" class="menu-footer__link">Liverpool FC</a>
+                            <a href="" class="menu-footer__link">Arsenal</a>
+                            <a href="" class="menu-footer__link">Manchester United</a>
+                            <a href="" class="menu-footer__link">Chelsea</a>
+                            <a href="" class="menu-footer__link">Tottenham</a>
+                            <a href="" class="menu-footer__link">Manchester City</a>
+                            <a href="" class="menu-footer__link">FC Barcelona</a>
+                            <a href="" class="menu-footer__link">Real Madrid</a>
+                            <a href="" class="menu-footer__link">Champions League</a>
+                            <a href="" class="menu-footer__link">UEFA Europa League</a>
+                            <a href="" class="menu-footer__link">Juventus FC</a>
+                            <a href="" class="menu-footer__link">Paris Saint German</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__column">
+                <form action="#" class="footer__form form-footer">
+                    <div class="form-footer__title footer__title">Follow Us</div>
+                    <div class="form-footer__subtitle">
+                        <p>
+                            Subscribe to get our best deals. Be the first to know
+                        </p>
+                    </div>
+                    <div class="form-footer__item form__item">
+                        <input placeholder="Enter a e-mail address" autocomplete='off' type='emeil' name='form[]'
+                            class='form__input'>
+                    </div>
+                    <button type='submit' class='form-footer__btn form__btn-submit'>SUBSCRIBE NOW</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__copyright copyright">
+            <div class="copyright__top">
+                <span></span>
+                Use of this site signifies your agreement to <a href="">our terms and conditions</a>. <a href="">Privacy
+                    policy</a> and <a href="">cookies policy</a>.
+            </div>
+            <div class="copyright__bottom">
+                <div class="copyright__icon">
+                    <img src="img/icons/copyright.svg" alt="copyright">
+                </div>
+                <span>
+                    2004-2023 <a href="">Seatsnet.com</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <svg display="none">
+    <symbol id="like" viewBox="0 0 20 19">
+        <g>
+            <path
+                d="M9.22318 16.2905L9.22174 16.2892C6.62708 13.9364 4.55406 12.0515 3.11801 10.2946C1.69296 8.55118 1 7.05624 1 5.5C1 2.96348 2.97109 1 5.5 1C6.9377 1 8.33413 1.67446 9.24116 2.73128L10 3.61543L10.7588 2.73128C11.6659 1.67446 13.0623 1 14.5 1C17.0289 1 19 2.96348 19 5.5C19 7.05624 18.307 8.55118 16.882 10.2946C15.4459 12.0515 13.3729 13.9364 10.7783 16.2892L10.7768 16.2905L10 16.9977L9.22318 16.2905Z"
+                stroke="#EB1FCA" stroke-width="2" />
+        </g>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 10 14">
+        <g>
+            <path
+                d="M0.82762 6.46478L7.09039 0.679223C7.39243 0.40019 7.88213 0.40019 8.18414 0.679223L8.91459 1.35402C9.21612 1.63257 9.2167 2.08403 8.91588 2.36324L3.95253 6.97L8.91588 11.5767C9.2167 11.8559 9.21612 12.3074 8.91459 12.586L8.18414 13.2608C7.88209 13.5398 7.3924 13.5398 7.09038 13.2608L0.827653 7.4752C0.525606 7.1962 0.525606 6.74381 0.82762 6.46478Z" />
+        </g>
+    </symbol>
+    <symbol id="search" viewBox="0 0 19 20">
+        <g>
+            <path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd"
+                d="M2 8.97541C2 5.5666 4.76338 2.80322 8.17218 2.80322C11.581 2.80322 14.3444 5.5666 14.3444 8.97541C14.3444 12.3842 11.581 15.1476 8.17218 15.1476C4.76338 15.1476 2 12.3842 2 8.97541ZM8.17218 0.803223C3.65881 0.803223 0 4.46203 0 8.97541C0 13.4888 3.65881 17.1476 8.17218 17.1476C10.0683 17.1476 11.8137 16.5018 13.2002 15.4182L16.686 18.904C17.0765 19.2945 17.7097 19.2945 18.1002 18.904C18.4907 18.5134 18.4907 17.8803 18.1002 17.4897L14.6145 14.004C15.6984 12.6174 16.3444 10.8718 16.3444 8.97541C16.3444 4.46203 12.6856 0.803223 8.17218 0.803223Z" />
+        </g>
+    </symbol>
+    <symbol id="point" viewBox="0 0 13 18">
+        <g>
+            <path
+                d="M6.5 0.25C3.05391 0.25 0.25 2.93164 0.25 6.22656C0.25 7.7957 0.965234 9.88242 2.37578 12.4289C3.50859 14.4734 4.81914 16.3223 5.50078 17.2422C5.61596 17.3994 5.76656 17.5272 5.94037 17.6153C6.11418 17.7034 6.3063 17.7493 6.50117 17.7493C6.69604 17.7493 6.88816 17.7034 7.06197 17.6153C7.23578 17.5272 7.38638 17.3994 7.50156 17.2422C8.18203 16.3223 9.49375 14.4734 10.6266 12.4289C12.0348 9.8832 12.75 7.79648 12.75 6.22656C12.75 2.93164 9.94609 0.25 6.5 0.25ZM6.5 9C6.00555 9 5.5222 8.85338 5.11107 8.57867C4.69995 8.30397 4.37952 7.91352 4.1903 7.45671C4.00108 6.99989 3.95157 6.49723 4.04804 6.01227C4.1445 5.52732 4.3826 5.08186 4.73223 4.73223C5.08186 4.3826 5.52732 4.1445 6.01227 4.04804C6.49723 3.95157 6.99989 4.00108 7.45671 4.1903C7.91352 4.37952 8.30397 4.69995 8.57867 5.11107C8.85338 5.5222 9 6.00555 9 6.5C8.99928 7.16282 8.73565 7.79828 8.26697 8.26697C7.79828 8.73565 7.16282 8.99928 6.5 9Z" />
+        </g>
+    </symbol>
+    <symbol id="calendar" viewBox="0 0 21 20">
+        <g>
+            <path
+                d="M18.4167 3.33337H16.6111V4.44449H18.2778V16.6667H2.72222V4.44449H4.38888V3.33337H2.58333C2.45346 3.33554 2.32529 3.36328 2.20614 3.41499C2.08699 3.4667 1.9792 3.54138 1.88892 3.63476C1.79863 3.72814 1.72763 3.83838 1.67996 3.95921C1.6323 4.08003 1.6089 4.20906 1.6111 4.33893V16.7723C1.6089 16.9021 1.6323 17.0312 1.67996 17.152C1.72763 17.2728 1.79863 17.3831 1.88892 17.4764C1.9792 17.5698 2.08699 17.6445 2.20614 17.6962C2.32529 17.7479 2.45346 17.7756 2.58333 17.7778H18.4167C18.5465 17.7756 18.6747 17.7479 18.7938 17.6962C18.913 17.6445 19.0208 17.5698 19.1111 17.4764C19.2014 17.3831 19.2724 17.2728 19.32 17.152C19.3677 17.0312 19.3911 16.9021 19.3889 16.7723V4.33893C19.3911 4.20906 19.3677 4.08003 19.32 3.95921C19.2724 3.83838 19.2014 3.72814 19.1111 3.63476C19.0208 3.54138 18.913 3.4667 18.7938 3.41499C18.6747 3.36328 18.5465 3.33554 18.4167 3.33337Z" />
+            <path d="M4.94446 7.77783H6.05557V8.88894H4.94446V7.77783Z" />
+            <path d="M8.27777 7.77783H9.38888V8.88894H8.27777V7.77783Z" />
+            <path d="M11.6111 7.77783H12.7222V8.88894H11.6111V7.77783Z" />
+            <path d="M14.9445 7.77783H16.0556V8.88894H14.9445V7.77783Z" />
+            <path d="M4.94446 10.5555H6.05557V11.6667H4.94446V10.5555Z" />
+            <path d="M8.27777 10.5555H9.38888V11.6667H8.27777V10.5555Z" />
+            <path d="M11.6111 10.5555H12.7222V11.6667H11.6111V10.5555Z" />
+            <path d="M14.9445 10.5555H16.0556V11.6667H14.9445V10.5555Z" />
+            <path d="M4.94446 13.3334H6.05557V14.4445H4.94446V13.3334Z" />
+            <path d="M8.27777 13.3334H9.38888V14.4445H8.27777V13.3334Z" />
+            <path d="M11.6111 13.3334H12.7222V14.4445H11.6111V13.3334Z" />
+            <path d="M14.9445 13.3334H16.0556V14.4445H14.9445V13.3334Z" />
+            <path
+                d="M6.05556 5.55553C6.2029 5.55553 6.34421 5.497 6.44839 5.39281C6.55258 5.28862 6.61111 5.14732 6.61111 4.99997V1.66664C6.61111 1.5193 6.55258 1.37799 6.44839 1.2738C6.34421 1.16962 6.2029 1.11108 6.05556 1.11108C5.90821 1.11108 5.76691 1.16962 5.66272 1.2738C5.55853 1.37799 5.5 1.5193 5.5 1.66664V4.99997C5.5 5.14732 5.55853 5.28862 5.66272 5.39281C5.76691 5.497 5.90821 5.55553 6.05556 5.55553Z" />
+            <path
+                d="M14.9444 5.55553C15.0918 5.55553 15.2331 5.497 15.3373 5.39281C15.4415 5.28862 15.5 5.14732 15.5 4.99997V1.66664C15.5 1.5193 15.4415 1.37799 15.3373 1.2738C15.2331 1.16962 15.0918 1.11108 14.9444 1.11108C14.7971 1.11108 14.6558 1.16962 14.5516 1.2738C14.4474 1.37799 14.3889 1.5193 14.3889 1.66664V4.99997C14.3889 5.14732 14.4474 5.28862 14.5516 5.39281C14.6558 5.497 14.7971 5.55553 14.9444 5.55553Z" />
+            <path d="M7.72223 3.33337H13.2778V4.44449H7.72223V3.33337Z" />
+        </g>
+    </symbol>
+    <symbol id="login" viewBox="0 0 17 17">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.33334 0C12.9358 0 16.6667 3.73083 16.6667 8.33333C16.6695 10.2566 16.0044 12.1211 14.785 13.6083L14.8017 13.6267L14.6917 13.72C13.9101 14.6443 12.9362 15.3868 11.838 15.8957C10.7398 16.4047 9.54375 16.6678 8.33334 16.6667C5.87501 16.6667 3.66668 15.6025 2.14167 13.9108L1.97501 13.7192L1.86501 13.6275L1.88167 13.6075C0.662429 12.1205 -0.00266861 10.2563 8.04759e-06 8.33333C8.04759e-06 3.73083 3.73084 0 8.33334 0ZM8.33334 12.5C6.78334 12.5 5.38251 12.9933 4.33917 13.6717C5.49133 14.5358 6.89315 15.002 8.33334 15C9.77354 15.002 11.1754 14.5358 12.3275 13.6717C11.1353 12.9078 9.74928 12.5013 8.33334 12.5ZM8.33334 1.66667C7.07878 1.66663 5.84966 2.0206 4.78728 2.68787C3.72489 3.35515 2.87235 4.30866 2.32764 5.43881C1.78294 6.56895 1.56818 7.82986 1.70805 9.0766C1.84792 10.3233 2.33675 11.5053 3.11834 12.4867C4.46918 11.5175 6.31251 10.8333 8.33334 10.8333C10.3542 10.8333 12.1975 11.5175 13.5483 12.4867C14.3299 11.5053 14.8188 10.3233 14.9586 9.0766C15.0985 7.82986 14.8837 6.56895 14.339 5.43881C13.7943 4.30866 12.9418 3.35515 11.8794 2.68787C10.817 2.0206 9.5879 1.66663 8.33334 1.66667ZM8.33334 3.33333C9.2174 3.33333 10.0652 3.68452 10.6904 4.30964C11.3155 4.93476 11.6667 5.78261 11.6667 6.66667C11.6667 7.55072 11.3155 8.39857 10.6904 9.02369C10.0652 9.64881 9.2174 10 8.33334 10C7.44929 10 6.60144 9.64881 5.97632 9.02369C5.3512 8.39857 5.00001 7.55072 5.00001 6.66667C5.00001 5.78261 5.3512 4.93476 5.97632 4.30964C6.60144 3.68452 7.44929 3.33333 8.33334 3.33333ZM8.33334 5C7.89131 5 7.46739 5.17559 7.15483 5.48816C6.84227 5.80072 6.66668 6.22464 6.66668 6.66667C6.66668 7.10869 6.84227 7.53262 7.15483 7.84518C7.46739 8.15774 7.89131 8.33333 8.33334 8.33333C8.77537 8.33333 9.19929 8.15774 9.51185 7.84518C9.82441 7.53262 10 7.10869 10 6.66667C10 6.22464 9.82441 5.80072 9.51185 5.48816C9.19929 5.17559 8.77537 5 8.33334 5Z" />
+        </g>
+    </symbol>
+    <symbol id="password" viewBox="0 0 20 12">
+        <g>
+            <path d="M1 7C4.6 -1 15.4 -1 19 7" fill="none" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            <path
+                d="M10 11C9.60603 11 9.21593 10.9224 8.85195 10.7716C8.48797 10.6209 8.15726 10.3999 7.87868 10.1213C7.6001 9.84274 7.37913 9.51203 7.22836 9.14805C7.0776 8.78407 7 8.39397 7 8C7 7.60603 7.0776 7.21593 7.22836 6.85195C7.37913 6.48797 7.6001 6.15726 7.87868 5.87868C8.15726 5.6001 8.48797 5.37913 8.85195 5.22836C9.21593 5.0776 9.60603 5 10 5C10.7956 5 11.5587 5.31607 12.1213 5.87868C12.6839 6.44129 13 7.20435 13 8C13 8.79565 12.6839 9.55871 12.1213 10.1213C11.5587 10.6839 10.7956 11 10 11Z"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+    </symbol>
+    <symbol id="close" viewBox="0 0 23 26">
+        <g>
+            <path
+                d="M13.396 12.9999L22.9307 1.2262C23.0905 1.03054 22.9561 0.733276 22.7091 0.733276H19.8106C19.6399 0.733276 19.4764 0.812295 19.3638 0.947755L11.5 10.6595L3.63618 0.947755C3.52721 0.812295 3.36376 0.733276 3.18941 0.733276H0.290871C0.0438782 0.733276 -0.0905154 1.03054 0.0693037 1.2262L9.60397 12.9999L0.0693037 24.7737C0.0335028 24.8173 0.0105351 24.8706 0.00312665 24.9274C-0.00428181 24.9841 0.00418011 25.0418 0.0275087 25.0937C0.0508372 25.1456 0.0880525 25.1895 0.134735 25.2202C0.181418 25.2508 0.235608 25.2669 0.290871 25.2666H3.18941C3.36012 25.2666 3.52358 25.1876 3.63618 25.0521L11.5 15.3404L19.3638 25.0521C19.4728 25.1876 19.6362 25.2666 19.8106 25.2666H22.7091C22.9561 25.2666 23.0905 24.9693 22.9307 24.7737L13.396 12.9999Z" />
+        </g>
+    </symbol>
+    <symbol id="double-arrow" viewBox="0 0 24 25">
+        <g>
+            <path
+                d="M4.66681 11.3933C4.75455 11.3928 4.84152 11.4097 4.92275 11.4428C5.00397 11.476 5.07785 11.5249 5.14015 11.5867L12.0001 18.4467L18.8601 11.5867C18.9877 11.4775 19.1517 11.4204 19.3195 11.4269C19.4873 11.4334 19.6465 11.5029 19.7652 11.6216C19.8839 11.7404 19.9535 11.8995 19.96 12.0673C19.9664 12.2351 19.9094 12.3991 19.8001 12.5267L12.0001 20.3333L4.19348 12.5267C4.10174 12.4331 4.03962 12.3145 4.01489 12.1858C3.99015 12.0571 4.00389 11.924 4.0544 11.8031C4.1049 11.6822 4.18993 11.5788 4.29885 11.5059C4.40778 11.433 4.53576 11.3939 4.66681 11.3933Z" />
+            <path
+                d="M4.66681 4.06001C4.75455 4.0595 4.84152 4.07632 4.92275 4.10949C5.00397 4.14267 5.07785 4.19155 5.14015 4.25334L12.0001 11.1133L18.8601 4.25334C18.9877 4.14412 19.1517 4.08705 19.3195 4.09353C19.4873 4.10001 19.6465 4.16957 19.7652 4.2883C19.8839 4.40703 19.9535 4.56619 19.96 4.73397C19.9664 4.90176 19.9094 5.06581 19.8001 5.19334L12.0001 13L4.19348 5.19334C4.10174 5.09975 4.03962 4.9812 4.01489 4.8525C3.99015 4.72381 4.00389 4.59067 4.0544 4.46974C4.1049 4.34881 4.18993 4.24545 4.29885 4.17258C4.40778 4.0997 4.53576 4.06055 4.66681 4.06001Z" />
+        </g>
+    </symbol>
+    <symbol id="heart" viewBox="0 0 18 18">
+        <g>
+            <path
+                d="M9.06523 14.6235L8.97548 14.7133L8.87675 14.6235C4.6134 10.7551 1.7951 8.19708 1.7951 5.60317C1.7951 3.80807 3.14142 2.46175 4.93651 2.46175C6.31874 2.46175 7.66506 3.3593 8.14076 4.57996H9.8102C10.2859 3.3593 11.6322 2.46175 13.0144 2.46175C14.8095 2.46175 16.1559 3.80807 16.1559 5.60317C16.1559 8.19708 13.3376 10.7551 9.06523 14.6235ZM13.0144 0.666656C11.4527 0.666656 9.9538 1.39367 8.97548 2.53356C7.99715 1.39367 6.49824 0.666656 4.93651 0.666656C2.17207 0.666656 0 2.82975 0 5.60317C0 8.98692 3.05166 11.7603 7.67403 15.9519L8.97548 17.1367L10.2769 15.9519C14.8993 11.7603 17.951 8.98692 17.951 5.60317C17.951 2.82975 15.7789 0.666656 13.0144 0.666656Z" />
+        </g>
+    </symbol>
+    <symbol id="spread" viewBox="0 0 18 21">
+        <g>
+            <path
+                d="M15 20.5C14.1667 20.5 13.4583 20.2083 12.875 19.625C12.2917 19.0417 12 18.3333 12 17.5C12 17.3833 12.0083 17.2623 12.025 17.137C12.0417 17.0117 12.0667 16.8993 12.1 16.8L5.05 12.7C4.76667 12.95 4.45 13.146 4.1 13.288C3.75 13.43 3.38333 13.5007 3 13.5C2.16667 13.5 1.45833 13.2083 0.875 12.625C0.291667 12.0417 0 11.3333 0 10.5C0 9.66667 0.291667 8.95833 0.875 8.375C1.45833 7.79167 2.16667 7.5 3 7.5C3.38333 7.5 3.75 7.571 4.1 7.713C4.45 7.855 4.76667 8.05067 5.05 8.3L12.1 4.2C12.0667 4.1 12.0417 3.98767 12.025 3.863C12.0083 3.73833 12 3.61733 12 3.5C12 2.66667 12.2917 1.95833 12.875 1.375C13.4583 0.791667 14.1667 0.5 15 0.5C15.8333 0.5 16.5417 0.791667 17.125 1.375C17.7083 1.95833 18 2.66667 18 3.5C18 4.33333 17.7083 5.04167 17.125 5.625C16.5417 6.20833 15.8333 6.5 15 6.5C14.6167 6.5 14.25 6.42933 13.9 6.288C13.55 6.14667 13.2333 5.95067 12.95 5.7L5.9 9.8C5.93333 9.9 5.95833 10.0127 5.975 10.138C5.99167 10.2633 6 10.384 6 10.5C6 10.6167 5.99167 10.7377 5.975 10.863C5.95833 10.9883 5.93333 11.1007 5.9 11.2L12.95 15.3C13.2333 15.05 13.55 14.8543 13.9 14.713C14.25 14.5717 14.6167 14.5007 15 14.5C15.8333 14.5 16.5417 14.7917 17.125 15.375C17.7083 15.9583 18 16.6667 18 17.5C18 18.3333 17.7083 19.0417 17.125 19.625C16.5417 20.2083 15.8333 20.5 15 20.5ZM15 4.5C15.2833 4.5 15.521 4.40433 15.713 4.213C15.905 4.02167 16.0007 3.784 16 3.5C16 3.21667 15.904 2.97933 15.712 2.788C15.52 2.59667 15.2827 2.50067 15 2.5C14.7167 2.5 14.4793 2.596 14.288 2.788C14.0967 2.98 14.0007 3.21733 14 3.5C14 3.78333 14.096 4.021 14.288 4.213C14.48 4.405 14.7173 4.50067 15 4.5ZM3 11.5C3.28333 11.5 3.521 11.404 3.713 11.212C3.905 11.02 4.00067 10.7827 4 10.5C4 10.2167 3.904 9.97933 3.712 9.788C3.52 9.59667 3.28267 9.50067 3 9.5C2.71667 9.5 2.47933 9.596 2.288 9.788C2.09667 9.98 2.00067 10.2173 2 10.5C2 10.7833 2.096 11.021 2.288 11.213C2.48 11.405 2.71733 11.5007 3 11.5ZM15 18.5C15.2833 18.5 15.521 18.404 15.713 18.212C15.905 18.02 16.0007 17.7827 16 17.5C16 17.2167 15.904 16.9793 15.712 16.788C15.52 16.5967 15.2827 16.5007 15 16.5C14.7167 16.5 14.4793 16.596 14.288 16.788C14.0967 16.98 14.0007 17.2173 14 17.5C14 17.7833 14.096 18.021 14.288 18.213C14.48 18.405 14.7173 18.5007 15 18.5Z" />
+        </g>
+    </symbol>
+    <symbol id="info" viewBox="0 0 20 20">
+        <g>
+            <path
+                d="M11 7H9V5H11M11 15H9V9H11M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" />
+        </g>
+    </symbol>
+    <symbol id="time" viewBox="0 0 18 18">
+        <g>
+            <path
+                d="M8.99935 17.3333C4.39685 17.3333 0.666016 13.6025 0.666016 8.99999C0.666016 4.39749 4.39685 0.666656 8.99935 0.666656C13.6018 0.666656 17.3327 4.39749 17.3327 8.99999C17.3327 13.6025 13.6018 17.3333 8.99935 17.3333ZM8.99935 15.6667C10.7675 15.6667 12.4632 14.9643 13.7134 13.714C14.9636 12.4638 15.666 10.7681 15.666 8.99999C15.666 7.23188 14.9636 5.53619 13.7134 4.28594C12.4632 3.0357 10.7675 2.33332 8.99935 2.33332C7.23124 2.33332 5.53555 3.0357 4.2853 4.28594C3.03506 5.53619 2.33268 7.23188 2.33268 8.99999C2.33268 10.7681 3.03506 12.4638 4.2853 13.714C5.53555 14.9643 7.23124 15.6667 8.99935 15.6667ZM9.83268 8.99999H13.166V10.6667H8.16601V4.83332H9.83268V8.99999Z" />
+        </g>
+    </symbol>
+</svg>
+    <span class="select-close-trigger"></span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
